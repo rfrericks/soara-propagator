@@ -48,19 +48,20 @@ copies untouched as the source record.
 Insert normalized content into `newsletter.md` in the standard order, omitting
 empty sections:
 
-1. President's Message
-2. Membership Meeting preview (may be folded into the President's Message some
+1. Upcoming SOARA Events — the front-page at-a-glance calendar (this month +
+   next month). This section stays FIRST so it lands on the front page.
+2. President's Message
+3. Membership Meeting preview (may be folded into the President's Message some
    months — that matches past issues)
-3. SOARA Saturday report
-4. Club News and Opportunities
-5. Recommended Links
-6. Member Feature article(s)
-7. Treasurer's Report
-8. Upcoming SOARA Events (this month + next month)
+4. SOARA Saturday report
+5. Club News and Opportunities
+6. Recommended Links
+7. Member Feature article(s)
+8. Treasurer's Report
 9. SOARA Information (paste verified content from `shared/club-information.md`)
 
-Keep time-sensitive, club-wide material near the front; calendar and evergreen
-info near the back. Use `## ` for each section heading — the PDF builder turns
+Keep the events calendar on the front page (this month + next month); keep other
+time-sensitive club-wide material near the front and evergreen info at the back. Use `## ` for each section heading — the PDF builder turns
 those into the "In This Issue" list automatically. Captions: put an italic line
 (`*Caption. Photo by Name, CALLSIGN.*`) directly under each image.
 

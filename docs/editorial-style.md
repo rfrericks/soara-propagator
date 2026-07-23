@@ -36,7 +36,15 @@ specific next step.
 
 ## Editing
 
-- Keep the author's character while correcting clarity and mechanics.
-- Break long technical articles into descriptive subsections.
+- **Do not change an author's content.** Fix spelling, grammar, punctuation, and
+  formatting only — never abridge, condense, summarize, reorder, or cut a submitted
+  article, and never drop its tables, figures, or sections. Publish the full
+  submission as written and intended. Length is not a reason to cut.
+- Flag any factual concern (dates, callsigns, scores, technical/legal claims,
+  reprint permission) in the submission's Editor Notes instead of editing it out;
+  the author or editor decides.
+- Keep the author's character, voice, byline, and sign-off.
+- You may add descriptive subsection headings to long technical articles for
+  readability, without changing the author's text.
 - Spell out uncommon abbreviations on first use.
 - End recurring reports with the next event date and contact or sign-off.

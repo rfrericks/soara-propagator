@@ -13,7 +13,7 @@ third Monday is a holiday and the meeting is held on the fourth Monday.
 **License Exams:** Amateur license exams are given prior to SOARA meetings,
 except June. Exams are at 6:00 PM. Prior registration is not required and walk-in
 applicants are welcome. For June, exams are held at Field Day. For further
-information, email Steve Kuver, K6UVR, at <k6uvr@soara.org>.
+information, email Steve Kuver, K6UVR, at <testing@soara.org>.
 
 **SOARA Library:** SOARA has many amateur radio related books such as
 handbooks, books about electrical theory, and more available to lend to club
@@ -74,6 +74,7 @@ Communications Service; QRM = interference. Spell out on first use in article co
 - Education: Steve Kuver, K6UVR — <k6uvr@soara.org> — 949-874-1972
 - Technical: Tom Hobbs, AE6SH — <ae6sh@soara.org> — 949-887-6527
 - Communications: Ray Hutchinson, AE6H — <ae6h@soara.org>
+- At Large: Dan Upchurch, N6RPR - <n6rpr@soara.org>
 
 ### SOARA Appointments
 
@@ -83,6 +84,7 @@ Communications Service; QRM = interference. Spell out on first use in article co
 - Raffle: Open
 - Testing: Steve Kuver, K6UVR — <k6uvr@soara.org>
 - Website: Open
+- Public Information Coordinator: Knute Josifek, K6HIV - <k6hiv@soara.org>
 
 ## Contacting SOARA
 

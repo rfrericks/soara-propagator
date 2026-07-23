@@ -11,6 +11,12 @@ approved_for_publication: false
 **Reporting period:** START DATE through END DATE  
 **Prepared by:** NAME, CALLSIGN, SOARA Treasurer
 
+<!-- SOURCE — treasurer's .xlsx: The Treasurer submits the full club general
+ledger as an Excel workbook. Only the outlined/bordered box on the first tab,
+labeled "Financial Statement for Propagator," is intended for the newsletter.
+Use ONLY that section; the rest of the workbook is internal and not needed.
+Reproduce the figures exactly and confirm the subtotals/totals tie out. -->
+
 <!-- Include only the financial detail approved for member publication. A
 chart, image, or exported statement may be placed in the issue assets folder
 and referenced below. -->

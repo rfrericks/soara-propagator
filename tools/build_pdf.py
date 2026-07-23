@@ -31,8 +31,31 @@ try:
 except ImportError as e:  # pragma: no cover
     sys.exit(f"Missing dependency: {e}. Run: pip install weasyprint markdown pyyaml")
 
+import base64
+
 REPO = Path(__file__).resolve().parent.parent
 CSS_PATH = REPO / "templates" / "print" / "propagator.css"
+
+# Masthead logo. Drop a file named soara-logo.(png|jpg|jpeg|svg) in
+# templates/print/ and it replaces the "K6SOA" circle on the masthead of EVERY
+# issue. If no such file exists, the masthead falls back to the "K6SOA" text
+# circle so the build never breaks.
+LOGO_CANDIDATES = ["soara-logo.png", "soara-logo.jpg", "soara-logo.jpeg", "soara-logo.svg"]
+_LOGO_MIME = {"png": "image/png", "jpg": "image/jpeg", "jpeg": "image/jpeg", "svg": "image/svg+xml"}
+
+
+def masthead_logo_html(club):
+    """Return the masthead brand element: the logo image if present, else K6SOA."""
+    for name in LOGO_CANDIDATES:
+        p = REPO / "templates" / "print" / name
+        if p.exists():
+            mime = _LOGO_MIME[p.suffix.lstrip(".").lower()]
+            b64 = base64.b64encode(p.read_bytes()).decode("ascii")
+            alt = html.escape(f"{club} logo")
+            return (f'<div class="logo-img">'
+                    f'<img src="data:{mime};base64,{b64}" alt="{alt}"></div>')
+    return '<div class="logo">K6SOA</div>'
+
 
 # Footer contact line — keep in sync with shared/club-information.md
 CONTACT = (
@@ -125,6 +148,16 @@ def main():
     body_html = add_heading_ids(body_html)
     body_html = wrap_captions(body_html)
 
+    # Wrap the closing "SOARA Information" section so it renders as a compact
+    # two-column single page (matches the printed reference layout). It is the
+    # last section, so wrap from its <h2> to the end of the body.
+    m = re.search(r'<h2 id="soara-information"[^>]*>', body_html)
+    if m:
+        body_html = (body_html[:m.start()]
+                     + '<section class="soarainfo">'
+                     + body_html[m.start():]
+                     + '</section>')
+
     toc_html = ""
     if toc:
         lis = "\n".join(
@@ -133,12 +166,13 @@ def main():
 
     issue_label = issue or (pub_date[:7] if pub_date else "")
     editor_line = f" &nbsp;|&nbsp; Editor: {html.escape(editor)}" if editor else ""
+    logo_html = masthead_logo_html(club)
 
     document = f"""<!doctype html>
 <html><head><meta charset="utf-8"><title>The Propagator — {html.escape(issue_label)}</title></head>
 <body>
   <div class="masthead">
-    <div class="logo">K6SOA</div>
+    {logo_html}
     <div class="title">
       <div class="wordmark">The Propagator</div>
       <div class="tagline">The Monthly Newsletter of the {html.escape(club)}</div>
