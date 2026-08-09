@@ -54,8 +54,6 @@ to the log.
 | CW QSOs (104 × 2 pts) | 208 |
 | Digital QSOs (69 × 2 pts) | 138 |
 | **QSO Points** | **833** |
-| Sections worked (75 × 100) | 7,500 |
-| **Estimated Base Score** | **8,333** |
 
 *Note: Final official score will include applicable bonus points (e.g., emergency
 power, public information, satellite, etc.).*
