@@ -152,6 +152,15 @@ th { background: var(--navy-soft); color: var(--navy); font-family: "Helvetica",
 
 blockquote { margin: 8px 0; padding: 4px 12px; border-left: 3px solid var(--gold); color: var(--muted); }
 
+/* Closing lines of an article section (a bit of body text plus the sign-off)
+   — keep together so a page break can't strand just a name, or "73,", alone
+   at the top of the next page, disconnected from the rest of the piece. */
+.section-tail { break-inside: avoid; }
+
+/* Treasurer's Report table is short enough to fit on one page; start the
+   whole section fresh rather than let the table split mid-row. */
+h2#treasurer-s-report { break-before: page; }
+
 hr { border: 0; border-top: 1px solid var(--rule); margin: 16px 0; }
 
 /* ---- SOARA Information: compact two-column single page ---- */

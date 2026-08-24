@@ -109,6 +109,38 @@ def wrap_captions(html_body):
     return html_body
 
 
+def wrap_section_tails(html_body, tail_paragraphs=3):
+    """Keep the closing lines of each article section together (up to the last
+    few paragraphs), so a page break can't strand a bare sign-off name — or
+    even just "73," — alone at the top of the next page, disconnected from the
+    rest of the piece. Pulling in a couple of the preceding paragraphs means
+    that when the group does need to move, it carries some real article
+    content along with the signature rather than just a lone name.
+
+    Only applies when a section's true ending is plain paragraphs (not a
+    table or figure) — e.g. the multi-page W6BOT feature ends on an image, so
+    it's left alone; there's nothing to usefully regroup there. Also skips
+    "SOARA Information," which gets its own compact multi-column single-page
+    treatment below — a break-inside: avoid block interacts badly with that
+    column layout."""
+    chunks = re.split(r"(?=<h2\b)", html_body)
+    p_re = re.compile(r"<p>.*?</p>", re.S)
+    out = []
+    for chunk in chunks:
+        if re.match(r'<h2 id="soara-information"', chunk):
+            out.append(chunk)
+            continue
+        matches = list(p_re.finditer(chunk))
+        tail = matches[-tail_paragraphs:] if matches else []
+        if len(tail) >= 2 and chunk[tail[-1].end():].strip() == "":
+            start = tail[0].start()
+            out.append(chunk[:start])
+            out.append(f'<div class="section-tail">{chunk[start:]}</div>')
+        else:
+            out.append(chunk)
+    return "".join(out)
+
+
 def main():
     ap = argparse.ArgumentParser(description="Render a Propagator issue to PDF.")
     ap.add_argument("source", help="path to assembled newsletter.md")
@@ -147,6 +179,7 @@ def main():
         body_md, extensions=["tables", "fenced_code", "sane_lists", "attr_list"])
     body_html = add_heading_ids(body_html)
     body_html = wrap_captions(body_html)
+    body_html = wrap_section_tails(body_html)
 
     # Wrap the closing "SOARA Information" section so it renders as a compact
     # two-column single page (matches the printed reference layout). It is the

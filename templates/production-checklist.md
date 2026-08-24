@@ -30,6 +30,7 @@
 - [ ] Final PDF filename is `Propagator-YYYY-MM.pdf`
 - [ ] PDF links and images checked
 - [ ] Newsletter published to website
+- [ ] Announcement email generated: `python tools/build_announcement.py issues/YYYY-MM/newsletter.md` (see `templates/announcement-email.md`)
 - [ ] Newsletter announcement sent
 - [ ] Published PDF archived in `reference/`
 - [ ] Next issue folder created

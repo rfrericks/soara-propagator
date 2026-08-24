@@ -33,6 +33,10 @@ See `docs/generation-guide.md` for the detailed step-by-step procedure. Summary:
 8. Verify all event dates against the club calendar.
 9. Complete the production checklist, then render the PDF with
    `python tools/build_pdf.py issues/YYYY-MM/newsletter.md`.
+10. Generate the member announcement email with
+    `python tools/build_announcement.py issues/YYYY-MM/newsletter.md` — pulls
+    the calendar and archive link straight from `newsletter.md`, so it always
+    matches the PDF. See `templates/announcement-email.md`.
 
 ## File Naming
 
@@ -41,3 +45,4 @@ See `docs/generation-guide.md` for the detailed step-by-step procedure. Summary:
 - Submission: `section-author-callsign-short-title.md`
 - Image: `section-subject-photographer-callsign-01.jpg`
 - Published PDF: `Propagator-YYYY-MM.pdf`
+- Announcement email: `announcement-YYYY-MM.txt`
