@@ -1,5 +1,7 @@
 # August 2026 Production Checklist
 
+**Issue closed 2026-09-13.** All publication steps confirmed by Ray; remaining items below are should-resolve/optional carryover, not blockers.
+
 ## Content
 
 - [x] President's Message received — Dale Tyler, W6EDT (from `PresidentsMessage_August_2026.docx`)
@@ -26,14 +28,14 @@
 
 - [x] PDF rendered: `python tools/build_pdf.py issues/2026-08/newsletter.md` — 19 pages, rendered 2026-08-13 with all content edits and blocking items resolved; sent to Ray for review
 - [x] "In This Issue" list, masthead, captions, tables, and page breaks look right — Ray caught three rounds of layout issues 2026-08-13, all fixed and re-sent: (1) Ed's sign-off orphaned alone on p.4 and Treasurer's table split p.17/18 — fixed via keep-together CSS rules; (2) Ed's whole sign-off (still disconnected from the rest of his article) and the same problem on Tom's sign-off — fixed by reordering `newsletter.md` (Membership Meeting now runs after SOARA Saturday Report, freeing enough room for Ed's full article+sign-off on one page) and generalizing the keep-together logic in `tools/build_pdf.py` (`wrap_section_tails`) to pull the last few paragraphs of a section together with the sign-off, not just the sign-off alone. PDF is now 20 pages (was 19). Known minor side effect: page 9 ("Final assembly verification" in the W6BOT feature) is mostly blank — a full-page image couldn't fit after it and moved to page 10 alone; not fixed, flagged for Ray, low risk to attempt fixing further given how fragile the heading/figure grouping got in testing.
-- [ ] Final proof reviewed by a second person
-- [ ] Final PDF filename is `Propagator-2026-08.pdf`
-- [ ] PDF links and images checked
-- [ ] Newsletter published to website
+- [x] Final proof reviewed by a second person — confirmed by Ray 2026-09-13
+- [x] Final PDF filename is `Propagator-2026-08.pdf` — confirmed 2026-09-13
+- [x] PDF links and images checked — confirmed by Ray 2026-09-13
+- [x] Newsletter published to website — confirmed by Ray 2026-09-13
 - [x] Announcement email generated 2026-08-13 via new `tools/build_announcement.py` (`issues/2026-08/announcement-2026-08.txt`) — sent to Ray to validate before this becomes the standard workflow step; flag the "SOARA Annual Picnic" (newsletter) vs. "SOARA Summer Picnic" (Ray's usual wording) naming mismatch for his call
-- [ ] Newsletter announcement sent
-- [ ] Published PDF archived in `reference/`
-- [ ] Next issue folder created
+- [x] Newsletter announcement sent — confirmed by Ray 2026-09-13
+- [x] Published PDF archived in `reference/` — copied 2026-09-13
+- [x] Next issue folder created — `issues/2026-09/` scaffolded 2026-08-24
 
 ## Open Items for This Issue
 
@@ -56,7 +58,7 @@ Should resolve before publishing:
 - [x] Masthead club name confirmed as "South Orange Amateur Radio Association" (no "County") per Ray 2026-08-13 — SOARA is a club located in South Orange County, but that's not part of the club's name. Current `newsletter.md` frontmatter already reads this way; no change needed. The open question came from `docs/generation-guide.md`, which notes past printed mastheads read "South Orange **County** Amateur Radio Association" and asks to confirm with the board — now confirmed.
 - [ ] Consider adding the frequency to "Temple Hill 2M repeater" in the President's Message so visitors can find it
 - [ ] Six full-page NanoVNA plots add roughly six pages; shrink via `templates/print/propagator.css` if 19 pages is too long
-- [ ] Remove the superseded originals from `holding/` once this issue is final
+- [x] Removed the superseded originals from `holding/` — 2026-09-13, moved (not deleted; device bridge can't unlink) to `holding/_to_delete/`. Verified byte-identical to the published copies in `issues/2026-08/` before moving. Ray needs to delete `holding/_to_delete/` himself.
 
 Optional:
 
