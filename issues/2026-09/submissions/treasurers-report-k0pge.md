@@ -4,7 +4,7 @@ author: "Ron Mosher, K0PGE"
 callsign: "K0PGE"
 reporting_period: "October 1, 2025 through August 31, 2026"
 issue: "September 2026"
-approved_for_publication: false
+approved_for_publication: true
 source: "submissions/_inbox/SOARA General Ledger FY 2025-2026 as of August 31 2026.xlsx"
 ---
 
@@ -40,9 +40,11 @@ any Board member.*
 
 ### Approval status
 
-`approved_for_publication: false`. This is Ron's workbook as submitted — not yet
-reviewed and approved by him for publication, per `CLAUDE.md`. Needs his sign-off
-before this runs, same as every prior issue.
+`approved_for_publication: true` as of 2026-09-13. Per Ray: the marked "Financial
+Statement for Propagator" box in the workbook Ron sends each month *is* his
+sign-off — Ron doesn't separately confirm every routine month, submitting that
+exact block is how he approves it. The table above was verified against that box
+cell-for-cell (see Verification performed below), so it's treated as approved.
 
 ### Verification performed
 
@@ -61,7 +63,7 @@ identical ($28,179.03), and July's ending cash of $26,887.40 plus August's net
 change reconciles to this month's $26,345.24 ($26,887.40 − $1,833.79 −
 (−$1,291.63) = $26,345.24).
 
-### For the Treasurer — one discrepancy, not corrected here
+### For the Treasurer — one discrepancy, printed as sent, not corrected
 
 The prior-year (August 2025) column doesn't internally tie out:
 
@@ -78,8 +80,9 @@ The prior-year (August 2025) column doesn't internally tie out:
 So the sheet uses two different values for the same August 2025 net income figure
 in two different places. Per `CLAUDE.md` this has **not** been corrected —
 $2,936.00 and $28,681.00 are printed above exactly as they appear in Ron's marked
-block. Ask Ron which August 2025 net income figure is correct and whether the
-block needs a fix.
+block, and since that block is his sign-off as sent, this runs as-is. Worth
+mentioning to Ron at some point for his own records, but it's not holding up
+publication — same treatment as July's 7-cent discrepancy.
 
 ### Style note
 
