@@ -7,7 +7,7 @@ schedule at least quarterly and immediately before publication. -->
 ## Meetings, Exams, Library, and Web Site
 
 SOARA meets at the Norman P. Murray Center, 24932 Veterans Way, Mission Viejo,
-CA on the third Monday of every month at 7:00 PM. For January and February, the
+CA on the third Monday of every month at 6:30 PM. For January and February, the
 third Monday is a holiday and the meeting is held on the fourth Monday.
 
 **License Exams:** Amateur license exams are given prior to SOARA meetings,

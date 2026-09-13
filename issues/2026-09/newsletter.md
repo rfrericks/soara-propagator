@@ -77,7 +77,7 @@ submitted article in full — see CLAUDE.md and docs/editorial-style.md. -->
 ## SOARA Information
 
 **Meetings:** SOARA meets at the Norman P. Murray Center, 24932 Veterans Way,
-Mission Viejo, CA on the third Monday of every month at 7:00 PM. For January and
+Mission Viejo, CA on the third Monday of every month at 6:30 PM. For January and
 February, the third Monday is a holiday and the meeting is held on the fourth
 Monday.
 

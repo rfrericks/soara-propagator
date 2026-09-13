@@ -54,7 +54,7 @@ Should resolve before publishing:
 
 - [x] No photo credit needed on WA6ED's Elmer Saturday photo, per Ray 2026-08-13 (member names in the photo still not addressed — separate question, not raised)
 - [ ] Decide how to present W6BOT's gain-comparison table, which names Amazon and AliExpress critically
-- [ ] Reconcile the meeting start time — evergreen SOARA Information says 7:00 PM, the calendar and meeting preview say 6:30 PM
+- [x] Reconcile the meeting start time — confirmed by Ray 2026-09-13: 6:30 PM is correct. Fixed at the source in `shared/club-information.md`, and propagated to `templates/newsletter.md` and `issues/2026-09/newsletter.md`. This August issue itself printed 7:00 PM and is not being reprinted/corrected retroactively.
 - [x] Masthead club name confirmed as "South Orange Amateur Radio Association" (no "County") per Ray 2026-08-13 — SOARA is a club located in South Orange County, but that's not part of the club's name. Current `newsletter.md` frontmatter already reads this way; no change needed. The open question came from `docs/generation-guide.md`, which notes past printed mastheads read "South Orange **County** Amateur Radio Association" and asks to confirm with the board — now confirmed.
 - [ ] Consider adding the frequency to "Temple Hill 2M repeater" in the President's Message so visitors can find it
 - [ ] Six full-page NanoVNA plots add roughly six pages; shrink via `templates/print/propagator.css` if 19 pages is too long
