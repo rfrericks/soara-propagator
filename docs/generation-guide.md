@@ -71,6 +71,9 @@ those into the "In This Issue" list automatically. Captions: put an italic line
 - Verify every **date/time/location** against the club calendar; write dates
   unambiguously (`Monday, June 15, 2026`).
 - Test every **link**; use descriptive link text.
+- Before publication, run `python3 tools/recommended_links.py check
+  issues/YYYY-MM/newsletter.md`. Resolve any duplicate reported from the
+  project's cross-issue Recommended Links registry.
 - Confirm photo **permissions and credits**.
 - Spell out uncommon abbreviations on first use (RACES, LNACS, EFHW, etc.).
 - Confirm the Treasurer's report is approved for publication.
@@ -89,8 +92,10 @@ for look) and re-run as needed.
 ## Step 7 — Finish the checklist and publish
 
 Complete `checklist.md`. Then publish to the website, send the announcement, and
-archive the PDF in `reference/` so it becomes a future style reference. Create
-next month's issue folder.
+archive the PDF in `reference/` so it becomes a future style reference. After
+publication, record the approved Recommended Links with `python3
+tools/recommended_links.py register issues/YYYY-MM/newsletter.md`. Create next
+month's issue folder.
 
 ## Notes
 

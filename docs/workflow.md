@@ -31,12 +31,17 @@ See `docs/generation-guide.md` for the detailed step-by-step procedure. Summary:
 6. Put the most time-sensitive and club-wide material first.
 7. Use concise captions to identify people by name and callsign.
 8. Verify all event dates against the club calendar.
-9. Complete the production checklist, then render the PDF with
+9. Run `python3 tools/recommended_links.py check issues/YYYY-MM/newsletter.md`
+   before finalizing any Recommended Links section, so a prior recommendation is
+   not repeated.
+10. Complete the production checklist, then render the PDF with
    `python tools/build_pdf.py issues/YYYY-MM/newsletter.md`.
-10. Generate the member announcement email with
-    `python tools/build_announcement.py issues/YYYY-MM/newsletter.md` — pulls
-    the calendar and archive link straight from `newsletter.md`, so it always
-    matches the PDF. See `templates/announcement-email.md`.
+11. Generate the member announcement email with
+   `python tools/build_announcement.py issues/YYYY-MM/newsletter.md` — pulls
+   the calendar and archive link straight from `newsletter.md`, so it always
+   matches the PDF. See `templates/announcement-email.md`.
+12. Once the issue is published, run `python3 tools/recommended_links.py register
+    issues/YYYY-MM/newsletter.md` to retain its link history.
 
 ## File Naming
 

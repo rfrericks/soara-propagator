@@ -1,4 +1,4 @@
-# MONTH YEAR Production Checklist
+# September 2026 Production Checklist
 
 ## Content
 
@@ -7,7 +7,7 @@
 - [ ] SOARA Saturday report received
 - [ ] Announcements and volunteer opportunities included
 - [ ] Feature article(s) received
-- [ ] Recommended links received and tested; `recommended_links.py check` confirms none were previously recommended
+- [ ] Recommended links received and tested
 - [ ] Treasurer's report received and approved
 - [ ] This-month and next-month calendars verified
 - [ ] Evergreen club information reviewed
@@ -24,13 +24,13 @@
 
 ## Publication
 
-- [ ] PDF rendered: `python tools/build_pdf.py issues/YYYY-MM/newsletter.md`
+- [ ] PDF rendered: `python tools/build_pdf.py issues/2026-09/newsletter.md`
 - [ ] "In This Issue" list, masthead, captions, tables, and page breaks look right
 - [ ] Final proof reviewed by a second person
-- [ ] Final PDF filename is `Propagator-YYYY-MM.pdf`
+- [ ] Final PDF filename is `Propagator-2026-09.pdf`
 - [ ] PDF links and images checked
 - [ ] Newsletter published to website
-- [ ] Announcement email generated: `python tools/build_announcement.py issues/YYYY-MM/newsletter.md` (see `templates/announcement-email.md`)
+- [ ] Announcement email generated: `python tools/build_announcement.py issues/2026-09/newsletter.md` (see `templates/announcement-email.md`)
 - [ ] Newsletter announcement sent
 - [ ] Published PDF archived in `reference/`
 - [ ] Next issue folder created

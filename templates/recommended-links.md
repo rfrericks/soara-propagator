@@ -15,4 +15,6 @@ A few links worth checking out this month:
 - **[RESOURCE TITLE](https://example.com)**  
   DESCRIPTION. Shared by NAME, CALLSIGN.
 
-<!-- Test each link immediately before publication. -->
+<!-- Test each link immediately before publication. Before finalizing this
+section, run: python3 tools/recommended_links.py check issues/YYYY-MM/newsletter.md
+After the issue is published, register its links with the same tool. -->

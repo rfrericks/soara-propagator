@@ -22,6 +22,7 @@ Sections may be omitted when there is no content that month.
 ```text
 .
 |-- reference/               Published newsletters used as examples
+|-- recommended-links/       Permanent history of links recommended to members
 |-- shared/                  Evergreen club information reused every month
 |-- templates/               Reusable Markdown templates
 |   `-- print/               PDF layout (HTML/CSS) for the rendered issue
@@ -55,13 +56,33 @@ editor (or Claude) then normalizes it into structured submissions, assembles
 4. Normalize each item into `submissions/` (preserve wording), move photos to
    `assets/`.
 5. Assemble and edit `newsletter.md` in the standard section order.
-6. Fact-check callsigns, dates, and links; complete `checklist.md`.
+6. Check Recommended Links against the project registry, fact-check callsigns,
+   dates, and links; complete `checklist.md`.
 7. Render: `python tools/build_pdf.py issues/YYYY-MM/newsletter.md`.
 8. Publish, announce, and archive the PDF in `reference/`.
 
 Keep raw source, normalized submissions, and the final assembled newsletter
 separate. This makes it easy to preserve contributor wording while editing the
 published issue.
+
+## Recommended Links History
+
+The project keeps the cross-issue history in
+`recommended-links/registry.csv`; it replaces the former tracking spreadsheet.
+Before finalizing an issue, run:
+
+```
+python3 tools/recommended_links.py check issues/YYYY-MM/newsletter.md
+```
+
+After publication, record the issue's approved links:
+
+```
+python3 tools/recommended_links.py register issues/YYYY-MM/newsletter.md
+```
+
+See `recommended-links/README.md` for one-off additions, dry runs, and how URL
+matching works.
 
 ## Rendering the PDF
 
