@@ -64,7 +64,7 @@ Communications Service; QRM = interference. Spell out on first use in article co
 - President: Dale Tyler, W6EDT — <w6edt@soara.org> — 949-360-1717
 - Vice President: Greg Unruh, WE4BY — <we4by@soara.org>
 - Secretary: Charles Schultz, NY6I — <ny6i@soara.org>
-- Treasurer: Ron Mosher, K0PGE — <k0pge@soara.org> — 949-363-0047
+- Treasurer: Ron Mosher, K0PGE — <k0pge@soara.org> — 949-636-9816
 
 ### SOARA Directors
 
