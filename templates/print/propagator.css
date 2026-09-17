@@ -157,9 +157,20 @@ blockquote { margin: 8px 0; padding: 4px 12px; border-left: 3px solid var(--gold
    at the top of the next page, disconnected from the rest of the piece. */
 .section-tail { break-inside: avoid; }
 
+/* A short sentence introducing a photo (e.g. "Stan, KM6VNI, demoed this huge
+   battery box on a cart.") — keep it with that photo's <figure> so a page
+   break can't strand the sentence on one page while the photo floats alone
+   onto the next, leaving a tall blank gap behind it. */
+.photo-intro { break-inside: avoid; }
+
 /* Treasurer's Report table is short enough to fit on one page; start the
    whole section fresh rather than let the table split mid-row. */
 h2#treasurer-s-report { break-before: page; }
+
+/* President's Message runs long; if it started on the front page it left
+   only a sliver (one short paragraph) at the bottom before the rest spilled
+   to page 2. Start the whole section on its own page instead. */
+h2#president-s-message { break-before: page; }
 
 hr { border: 0; border-top: 1px solid var(--rule); margin: 16px 0; }
 

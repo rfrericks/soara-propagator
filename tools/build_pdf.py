@@ -109,6 +109,30 @@ def wrap_captions(html_body):
     return html_body
 
 
+def wrap_photo_intros(html_body, max_len=220):
+    """Keep a short paragraph that directly introduces a photo (e.g. "Stan,
+    KM6VNI, demoed this huge battery box on a cart. Wow, Stan!") attached to
+    that photo's <figure>, so a page break can't strand the sentence on one
+    page while the photo -- often nearly a full page itself -- floats alone
+    onto the next, leaving a tall blank gap behind it.
+
+    Only wraps a paragraph short enough to be an intro line, not ordinary
+    article body text (max_len chars of visible text); a long paragraph is
+    left to break normally rather than forcing an oversized unbreakable
+    block. Only the paragraph immediately before the figure is considered,
+    so back-to-back photos with no paragraph between them are untouched."""
+    pattern = re.compile(r"(<p>((?:(?!</p>).)*)</p>)\s*(<figure>.*?</figure>)", re.S)
+
+    def repl(m):
+        p_html, p_text, fig_html = m.group(1), m.group(2), m.group(3)
+        text = re.sub(r"<[^>]+>", "", p_text).strip()
+        if len(text) > max_len:
+            return m.group(0)
+        return f'<div class="photo-intro">{p_html}{fig_html}</div>'
+
+    return pattern.sub(repl, html_body)
+
+
 def wrap_section_tails(html_body, tail_paragraphs=3):
     """Keep the closing lines of each article section together (up to the last
     few paragraphs), so a page break can't strand a bare sign-off name — or
@@ -179,6 +203,7 @@ def main():
         body_md, extensions=["tables", "fenced_code", "sane_lists", "attr_list"])
     body_html = add_heading_ids(body_html)
     body_html = wrap_captions(body_html)
+    body_html = wrap_photo_intros(body_html)
     body_html = wrap_section_tails(body_html)
 
     # Wrap the closing "SOARA Information" section so it renders as a compact

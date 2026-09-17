@@ -89,6 +89,20 @@ masthead, the auto-generated "In This Issue" list, photo placement/captions,
 tables, and page breaks. Edit `newsletter.md` (or `templates/print/propagator.css`
 for look) and re-run as needed.
 
+A photo-heavy issue can render well past 1MB (WeasyPrint embeds photos at
+their full source size/quality). Once the content and layout are final, shrink
+it with:
+
+```
+python tools/compress_pdf.py issues/YYYY-MM/Propagator-YYYY-MM.pdf
+```
+
+This recompresses large embedded photos in place (downsampled + re-encoded at
+a print-appropriate quality) without touching text, tables, or the masthead.
+Run it last, after the content is locked — re-running `build_pdf.py` afterward
+would just re-embed the original full-size photos. Use `--dry-run` to preview
+the savings, or `-o` to write a separate file instead of overwriting.
+
 ## Step 7 — Finish the checklist and publish
 
 Complete `checklist.md`. Then publish to the website, send the announcement, and

@@ -137,21 +137,20 @@ Stan, KM6VNI, demoed this huge battery box on a cart. Wow, Stan!
 
 ![Inside Stan's battery box](assets/soara-saturday-battery-box-wa6ed-03.jpeg)
 
-*Inside Stan, KM6VNI's battery box. Photo by Ed Barnes, WA6ED (to confirm).*
+*Inside Stan, KM6VNI's battery box. Photo by Ed Barnes, WA6ED.*
 
 Mike, KO6AOL, brought his HF rig setup for CW.
 
 ![Mike, KO6AOL, with his HF rig setup](assets/soara-saturday-hf-rig-ko6aol-wa6ed-04.jpeg)
 
-*Mike, KO6AOL, with his HF rig setup for CW. Photo by Ed Barnes, WA6ED (to
-confirm).*
+*Mike, KO6AOL, with his HF rig setup for CW. Photo by Ed Barnes, WA6ED.*
 
 Greg, WE4BY, had a broken PowerPole on his battery — but it still works!
 
 ![Close-up of a PowerPole connector](assets/soara-saturday-powerpole-wa6ed-05.jpeg)
 
 *Close-up of the PowerPole connector on Greg, WE4BY's battery. Photo by Ed
-Barnes, WA6ED (to confirm).*
+Barnes, WA6ED.*
 
 Brian, NJ6N, brought some interesting projects — one tracked aircraft on a
 little round display, and another was a PowerPole expander. It was a fun
@@ -160,7 +159,7 @@ morning.
 ![Members gathered around a picnic table](assets/soara-saturday-group-wa6ed-01.jpeg)
 
 *Members gather around a picnic table at Gilleran Park. Photo by Ed Barnes,
-WA6ED (to confirm).*
+WA6ED.*
 
 ### Next SOARA Saturday
 
@@ -205,9 +204,63 @@ Ed, WA6ED
 ## Recommended Links
 A few links worth checking out this month:
 
-- **[AI Overview](https://youtu.be/UtFo1ZNC2ns)**
-  Shared by Ed Barnes, WA6ED.
+- **[I'm Obsessed With Local AI. Here's Why](https://youtu.be/UtFo1ZNC2ns)**
+  Greg Isenberg (The Startup Ideas Podcast) explains local AI in plain terms -- running a model on hardware you control instead of the cloud -- and walks through the landscape of tools and terminology (parameters, tokens, context window, quantization, GGUF) for anyone getting started. Shared by Ed Barnes, WA6ED.
 
+- **[The Ham Ninja's Top 10 Safety Tips](https://www.n1clc.com/2025/12/the-ham-ninjas-top-10-safety-tips.html)**
+  Chris Claborne, N1CLC, draws on 880+ summit activations and his background as
+  an Army medic, certified EMT, and private pilot to share ten safety tips for
+  outdoor ham radio operations -- hydration, weather awareness, lightning
+  safety, and navigation among them. Shared by Ray Frericks, K6NOV.
+
+
+## Battery Fire Follow-Up: What Went Wrong
+During a recent Tuesday night VHF/UHF net, Mike Mahan, K6MSM, had to break off
+his transmission when a battery pack he was using caught fire — the incident
+Dale, W6EDT, mentioned in his President's Message elsewhere in this issue as a
+reminder to have a plan ready if a battery pack or its wiring catches fire.
+Mike followed up with the Board afterward with a closer look at what actually
+went wrong, in his own words, along with photos of the aftermath.
+
+I placed four of these batteries in series to get a nice 12 volts. Everything
+was fine until I put the pack on a metal plate after cleaning out the ammo box
+that had held it overnight.
+
+I believe my mistake was not realizing that the bottom of these batteries is
+the negative terminal as well. Doing this with one battery isn't an issue, but
+when the batteries are in series and I shorted the negative terminal of a
+battery down the line to the metal plate, the "magic" started. Since the
+batteries are in series, the negative terminal down the line wasn't at zero —
+so there was a voltage difference between the negative terminals. I think this
+ended up causing a short through the negative terminals rather than the
+positive ones. If I'd placed the pack flat instead of resting the negative
+terminals on the metal plate, I suspect this wouldn't have happened. What does
+everyone think?
+
+![Bottom view of the four-cell pack, showing each cell's exposed negative terminal](assets/feature-battery-fire-negative-terminals-k6msm-01.jpeg)
+
+*Bottom view of the four-cell pack. Each cell's case bottom is also its
+negative terminal — resting them on the metal plate is what created the short.
+Photo by Mike Mahan, K6MSM.*
+
+Next time I run these in series — and some of these batteries might still be
+okay, I'll find out shortly — I'll make sure to tape the bottoms of the
+negatives so I don't get an unintentional short again.
+
+I must have had the presence of mind to knock the pack onto its side to remove
+the short, which at least stopped the source of the fire.
+
+![Close-up of melted wiring and connectors on the battery pack](assets/feature-battery-fire-damage-k6msm-02.jpeg)
+
+*Melted wiring and connectors at one end of the pack, on the scorched metal
+plate. Photo by Mike Mahan, K6MSM.*
+
+![Burned hole through the plastic lid the pack was resting near](assets/feature-battery-fire-melted-hole-k6msm-03.jpeg)
+
+*A burned-through hole in a nearby plastic lid gives a sense of how much heat
+the short generated. Photo by Mike Mahan, K6MSM.*
+
+Mike, K6MSM
 
 ## Treasurer's Report
 | Eleven Months | August 2026 | August 2025 | Increase/(Decrease) |

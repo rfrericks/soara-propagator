@@ -19,21 +19,20 @@ Stan, KM6VNI, demoed this huge battery box on a cart. Wow, Stan!
 
 ![Inside Stan's battery box](../assets/soara-saturday-battery-box-wa6ed-03.jpeg)
 
-*Inside Stan, KM6VNI's battery box. Photo by Ed Barnes, WA6ED (to confirm).*
+*Inside Stan, KM6VNI's battery box. Photo by Ed Barnes, WA6ED.*
 
 Mike, KO6AOL, brought his HF rig setup for CW.
 
 ![Mike, KO6AOL, with his HF rig setup](../assets/soara-saturday-hf-rig-ko6aol-wa6ed-04.jpeg)
 
-*Mike, KO6AOL, with his HF rig setup for CW. Photo by Ed Barnes, WA6ED (to
-confirm).*
+*Mike, KO6AOL, with his HF rig setup for CW. Photo by Ed Barnes, WA6ED.*
 
 Greg, WE4BY, had a broken PowerPole on his battery — but it still works!
 
 ![Close-up of a PowerPole connector](../assets/soara-saturday-powerpole-wa6ed-05.jpeg)
 
 *Close-up of the PowerPole connector on Greg, WE4BY's battery. Photo by Ed
-Barnes, WA6ED (to confirm).*
+Barnes, WA6ED.*
 
 Brian, NJ6N, brought some interesting projects — one tracked aircraft on a
 little round display, and another was a PowerPole expander. It was a fun
@@ -42,7 +41,7 @@ morning.
 ![Members gathered around a picnic table](../assets/soara-saturday-group-wa6ed-01.jpeg)
 
 *Members gather around a picnic table at Gilleran Park. Photo by Ed Barnes,
-WA6ED (to confirm).*
+WA6ED.*
 
 ## Next SOARA Saturday
 
@@ -64,11 +63,11 @@ Ed, WA6ED
 
 | File | Subject | Caption | Photo credit |
 |---|---|---|---|
-| `assets/soara-saturday-group-wa6ed-01.jpeg` | Five or six members standing/seated around a picnic table with gear | "Members gather around a picnic table at Gilleran Park." | Ed Barnes, WA6ED (to confirm) |
-| `assets/soara-saturday-portrait-unconfirmed-wa6ed-02.jpeg` | A bearded man in a cap with an "FEW" patch, holding a phone | Not used — subject not identified in Ed's email | Ed Barnes, WA6ED (to confirm) |
-| `assets/soara-saturday-battery-box-wa6ed-03.jpeg` | Open wooden/case battery box with wiring and PowerPole connectors | "Inside Stan, KM6VNI's battery box." | Ed Barnes, WA6ED (to confirm) |
-| `assets/soara-saturday-hf-rig-ko6aol-wa6ed-04.jpeg` | Man in blue cap with lanyard reading "Michael," seated at a table with radio gear | "Mike, KO6AOL, with his HF rig setup for CW." | Ed Barnes, WA6ED (to confirm) |
-| `assets/soara-saturday-powerpole-wa6ed-05.jpeg` | Close-up of red/black PowerPole connectors on a LiFePO4 battery | "Close-up of the PowerPole connector on Greg, WE4BY's battery." | Ed Barnes, WA6ED (to confirm) |
+| `assets/soara-saturday-group-wa6ed-01.jpeg` | Five or six members standing/seated around a picnic table with gear | "Members gather around a picnic table at Gilleran Park." | Ed Barnes, WA6ED |
+| `assets/soara-saturday-portrait-unconfirmed-wa6ed-02.jpeg` | A bearded man in a cap with an "FEW" patch, holding a phone | Not used — subject not identified in Ed's email | Ed Barnes, WA6ED |
+| `assets/soara-saturday-battery-box-wa6ed-03.jpeg` | Open wooden/case battery box with wiring and PowerPole connectors | "Inside Stan, KM6VNI's battery box." | Ed Barnes, WA6ED |
+| `assets/soara-saturday-hf-rig-ko6aol-wa6ed-04.jpeg` | Man in blue cap with lanyard reading "Michael," seated at a table with radio gear | "Mike, KO6AOL, with his HF rig setup for CW." | Ed Barnes, WA6ED |
+| `assets/soara-saturday-powerpole-wa6ed-05.jpeg` | Close-up of red/black PowerPole connectors on a LiFePO4 battery | "Close-up of the PowerPole connector on Greg, WE4BY's battery." | Ed Barnes, WA6ED |
 
 ## Editor Notes
 
@@ -100,11 +99,16 @@ rendered draft PDF and confirmed the pairings are correct. The fifth photo
 (portrait of a bearded man in an "FEW" cap) remains unidentified and unused —
 no one has named him.
 
+### Photo credit — confirmed by Ray, 2026-09-14
+
+All five images arrived inline in Ed's email with no explicit photographer
+credit, so it was carried as "Ed Barnes, WA6ED (to confirm)" pending
+confirmation. Ray has confirmed Ed, WA6ED, as the photographer for all five;
+the "(to confirm)" flag has been removed from the captions above, the Assets
+table, and `newsletter.md`.
+
 ### To verify
 
-- **Photo credit.** All five images arrived inline in Ed's email, so Ed is the
-  presumed photographer for each, but he didn't say so explicitly — same open
-  item as last issue.
 - **Attendee count / sign-in sheet.** No attendee list this time; Ed couldn't
   find the sign-in sheet. Left exactly as submitted — no names added beyond
   who Ed mentioned by name in the body.
