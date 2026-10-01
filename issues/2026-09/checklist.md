@@ -38,4 +38,4 @@
 - [x] Announcement email generated: `announcement-2026-09.txt`, via `python tools/build_announcement.py issues/2026-09/newsletter.md`
 - [x] Newsletter announcement sent — confirmed by Ray 2026-10-01
 - [x] Published PDF archived in `reference/` — copied 2026-10-01. Removed stale `Propagator-2026-09-1.pdf` (pre-correction copy still reading "I place"; otherwise identical); `Propagator-2026-09.pdf` is the final. Recommended links registered in `recommended-links/registry.csv` 2026-10-01.
-- [ ] Next issue folder created
+- [x] Next issue folder created — `issues/2026-10/` scaffolded 2026-10-01
