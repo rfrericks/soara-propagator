@@ -12,6 +12,82 @@ governs voice, names/callsigns, dates, links, and photos.
 - **Out:** `issues/YYYY-MM/newsletter.md` (edited, assembled source) and
   `issues/YYYY-MM/Propagator-YYYY-MM.pdf` (published file).
 
+## Step 0 — Set the schedule and call for articles
+
+### Monthly schedule
+
+- **Publish date:** the Monday before the month's first club activity (usually
+  SOARA Elmer Saturday). Example: SOARA Saturday on Sat Oct 17 means the issue
+  publishes Mon Oct 12.
+- **Build day:** the Saturday before the publish date.
+- **Submission deadline:** the Friday before the build day.
+- Put the publish date in the issue's `publication_date` frontmatter.
+
+### Call for articles
+
+About a week before the deadline, post a "Call for MONTH Propagator Articles"
+topic to the SOARA **members** group on groups.io
+(<https://soara.groups.io/g/members>). Post it directly in groups.io; there's no
+need to email it with Bcc. Template:
+
+```text
+Subject: Call for MONTH Propagator Articles
+
+Soara Board and Members,
+
+I will be constructing the MONTH Propagator on Saturday MONTH DDth. Please have your articles to me by Friday, M/D/YYYY.
+
+- President's Message
+- Financial Report
+- SES Report
+- Other announcements?
+- MON Meeting Announcement
+- Recommended Links!!
+- All other articles are always welcome.
+
+Thanks to all that have submitted articles this month!!
+
+Thanks,
+Ray
+K6NOV
+```
+
+### Reminder to the board
+
+Two days before the deadline (the Wednesday), post a reminder to the SOARA
+**board** group only (<https://soara.groups.io/g/board>), not the members group.
+Before posting, check what has already arrived (email replies and
+`issues/YYYY-MM/submissions/`) and append `   -- DONE` to each item received, so
+the board can see what's still outstanding. Leave anything uncertain unmarked,
+and never mark the last bullet. Template:
+
+```text
+Subject: Reminder: MONTH Propagator Articles Due Friday M/D
+
+Friendly reminder!! I will be constructing the MONTH Propagator on Saturday MONTH DDth, so please have your articles to me by Friday, M/D/YYYY.
+
+- President's Message
+- Financial Report   -- DONE
+- SES Report
+- MON Meeting Announcement
+- Recommended Links!!
+- All other articles are always welcome.
+
+Thanks!!
+73,
+Ray
+K6NOV
+```
+
+Item owners: President's Message comes from the President (Dale Tyler, W6EDT).
+Financial Report is the Treasurer's ledger (Ron Mosher, K0PGE). SES Report is the
+SOARA Elmer Saturday report (Ed Barnes, WA6ED). The meeting announcement comes
+from the Vice President (Greg Unruh, WE4BY). Recommended Links can come from any
+member.
+
+Never post to any groups.io group without the editor's explicit OK for that
+message.
+
 ## Step 1 — Start the issue
 
 1. Copy `issues/_template/` to `issues/YYYY-MM/`.

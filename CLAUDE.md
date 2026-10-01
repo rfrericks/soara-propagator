@@ -52,4 +52,12 @@ Then:
 
 `templates/financial-report.md` carries the same instruction inline.
 
+## Schedule and call for articles
+
+Publish on the Monday before the month's first club activity (usually SOARA
+Saturday). The deadline is the Friday before the Saturday build day. The call for
+articles goes to the groups.io members group, and the reminder goes to the board
+group only, with received items marked `-- DONE`. Templates and details are in
+"Step 0" of `docs/generation-guide.md`.
+
 See `docs/editorial-style.md` and `docs/generation-guide.md` for the full workflow.
