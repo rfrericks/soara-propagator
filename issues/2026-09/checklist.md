@@ -1,5 +1,7 @@
 # September 2026 Production Checklist
 
+**Issue closed 2026-10-01.** Publication confirmed by Ray; unchecked Content/Fact Check items below are carryover, not blockers.
+
 ## Content
 
 - [x] President's Message received — Dale Tyler, W6EDT, 2026-09-13 (`PresidentsMessage_0926.docx`), normalized to `submissions/president-message-w6edt.md`
@@ -28,12 +30,12 @@
 
 - [x] PDF rendered: `python tools/build_pdf.py issues/2026-09/newsletter.md`
 - [x] "In This Issue" list, masthead, captions, tables, and page breaks look right — reviewed page-by-page 2026-09-14 (President's Message now starts cleanly on page 2; SOARA Saturday photo intros stay with their photos; both were the reported issues)
-- [ ] Final proof reviewed by a second person
+- [x] Final proof reviewed by a second person — confirmed by Ray 2026-10-01 (issue published)
 - [x] Final PDF filename is `Propagator-2026-09.pdf`
 - [x] PDF compressed for distribution — `python tools/compress_pdf.py issues/2026-09/Propagator-2026-09.pdf`, 2026-09-14: 1731KB -> 817KB (53% smaller, photos only; text/tables untouched)
-- [ ] PDF links and images checked
-- [ ] Newsletter published to website
+- [x] PDF links and images checked — confirmed by Ray 2026-10-01 (issue published)
+- [x] Newsletter published to website — confirmed by Ray 2026-10-01
 - [x] Announcement email generated: `announcement-2026-09.txt`, via `python tools/build_announcement.py issues/2026-09/newsletter.md`
-- [ ] Newsletter announcement sent
-- [ ] Published PDF archived in `reference/`
+- [x] Newsletter announcement sent — confirmed by Ray 2026-10-01
+- [x] Published PDF archived in `reference/` — copied 2026-10-01. Removed stale `Propagator-2026-09-1.pdf` (pre-correction copy still reading "I place"; otherwise identical); `Propagator-2026-09.pdf` is the final. Recommended links registered in `recommended-links/registry.csv` 2026-10-01.
 - [ ] Next issue folder created
