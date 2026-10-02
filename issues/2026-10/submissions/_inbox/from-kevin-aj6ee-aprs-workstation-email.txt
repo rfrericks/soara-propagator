@@ -1,0 +1,18 @@
+Source type: Email submission
+Date received: September 29, 2026 (9:21 PM PT)
+Contributor: Kevin Brouelette, AJ6EE
+Subject: APRS workstation with Pinpoint APRS, DigiRig and Yaesu FTM-6000
+Attachment: from-kevin-aj6ee-APRS_Keyboard_Messaging_PinPoint_Digirig_FTM-6000.pdf
+(original filename APRS_Keyboard_Messaging_PinPoint_Digirig_FTM-6000.pdf)
+
+Privacy redaction: email addresses and headers removed.
+
+--- Message body (verbatim) ---
+
+Hi Ray,
+I had Claude put this document together. I took the screenshots and
+uploaded them and described the setup etc and it asked me questions and
+gave me suggestions and came up with the document attached to this email.
+Claude is getting better at making it read more humanlike.
+Let me know what you think.
+Kevin BRouelette AJ6EE

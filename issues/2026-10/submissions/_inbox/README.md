@@ -22,3 +22,9 @@ parent `submissions/` folder using the matching section template, preserving the
 contributor's wording (see `docs/generation-guide.md`). Photos move to
 `../../assets/` with descriptive names. Nothing here is edited in place — the
 inbox stays as the untouched record of what was received.
+
+## Received log
+
+| Received | From | Subject | Files |
+|---|---|---|---|
+| 2026-09-29 | Kevin Brouelette, AJ6EE | APRS workstation with Pinpoint APRS, DigiRig and Yaesu FTM-6000 | `from-kevin-aj6ee-aprs-workstation-email.txt`, `from-kevin-aj6ee-APRS_Keyboard_Messaging_PinPoint_Digirig_FTM-6000.pdf` |
