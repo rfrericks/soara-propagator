@@ -29,3 +29,4 @@ inbox stays as the untouched record of what was received.
 |---|---|---|---|
 | 2026-09-29 | Kevin Brouelette, AJ6EE | APRS workstation with Pinpoint APRS, DigiRig and Yaesu FTM-6000 | `from-kevin-aj6ee-aprs-workstation-email.txt`, `from-kevin-aj6ee-APRS_Keyboard_Messaging_PinPoint_Digirig_FTM-6000.pdf` |
 | 2026-10-03 | Ron Mosher, K0PGE | Financial Statements for the Fiscal Year Ended September 2026 | `from-ron-k0pge-financial-statements-email.txt`, `from-ron-k0pge-SOARA General Ledger FY 2025-2026 as of September 30, 2026.xlsx` |
+| 2026-10-08 | Ed Barnes, WA6ED | September SOARS Elmer Saturday Report (SES Report) | `from-ed-wa6ed-ses-report-email.txt`, `from-ed-wa6ed-ses-image4.jpeg` through `image8.jpeg` (5 photos) |

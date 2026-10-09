@@ -1,0 +1,32 @@
+Source type: Email submission (posted to the SOARA board group)
+Date received: October 8, 2026 (7:41 PM PT)
+Contributor: Ed Barnes, WA6ED
+Subject: [Soara Board] September SOARS Elmer Saturday Report
+Attachments: from-ed-wa6ed-ses-image4.jpeg ... image8.jpeg (original filenames image4.jpeg through image8.jpeg, in email order)
+
+Privacy redaction: email addresses, headers and groups.io footer removed.
+
+--- Message body (verbatim) ---
+
+SOARA Elmer Saturday Report
+
+Our next SOARA Saturday will be October 17 2026 at Gilleran Park. 9am to noon, donuts will be provided. Theme is open. I plan to bring a APRS setup with a Raspberry Pi and a TNC PI. Maybe a Arduino hamshield running a Uno R4. All demos are welcome!
+
+The last SOARA Saturday was 9/19/2026 at Gilleran park. The theme was digital modes. Greg N6PM brought donuts. Our donut fund balance was zero. Amazingly, we took in $75 for donuts. I paid Greg $20 for September and we now have a $55 balance for October, ++.
+
+Attendees were: WA6ED Ed, K6NOV Ray, KO6BIX Dan, KU6CZG Mark, W6EDT Dale, KN6HI Steve, N6PM Greg, W6DS David, KK6UMB Tom, NJ6N Brian, AE6H Ray, WE4BY Greg, N5KZV Bob, AD6OH Patti, W6CAG Claude.
+
+Mark KU6CZG demoed contacts made all over the worled with EchoLink.
+
+Ray is setting up his HF vertical antenna.
+
+ Ray and Ray setting up. Maybe WinLink? Not sure…
+
+Brian and everyone having a good time.
+
+David, Greg, Claude working JS8CALL.
+
+73,
+Ed, WA6ED
+
+Sent from my iPad. Please disregard typos.
