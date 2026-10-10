@@ -31,3 +31,4 @@ inbox stays as the untouched record of what was received.
 | 2026-10-03 | Ron Mosher, K0PGE | Financial Statements for the Fiscal Year Ended September 2026 | `from-ron-k0pge-financial-statements-email.txt`, `from-ron-k0pge-SOARA General Ledger FY 2025-2026 as of September 30, 2026.xlsx` |
 | 2026-10-08 | Ed Barnes, WA6ED | September SOARS Elmer Saturday Report (SES Report) | `from-ed-wa6ed-ses-report-email.txt`, `from-ed-wa6ed-ses-image4.jpeg` through `image8.jpeg` (5 photos) |
 | 2026-10-09 | Dale, W6EDT | President's Message | `from-dale-w6edt-presidents-message-email.txt`, `from-dale-w6edt-PresidentsMessage_1026.docx` |
+| 2026-10-10 | Greg Unruh, WE4BY (via Ray) | October meeting announcement (Live RADE Demo), Ray-approved text | `from-greg-we4by-meeting-announcement.md` |
