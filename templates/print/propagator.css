@@ -144,6 +144,9 @@ em { color: var(--muted); }
 
 /* photo caption: an emphasized paragraph right after an image */
 figure { margin: 10px 0; break-inside: avoid; text-align: center; }
+/* cap photo/screenshot height so a portrait phone photo or a small
+   screenshot doesn't fill a whole page */
+figure img { max-height: 3.6in; width: auto; max-width: 100%; }
 figcaption { font-size: 8.5pt; color: var(--muted); font-style: italic; margin-top: 3px; }
 
 table { border-collapse: collapse; width: 100%; margin: 8px 0; font-size: 9.5pt; }
