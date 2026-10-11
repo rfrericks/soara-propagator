@@ -36,10 +36,9 @@ date, time, and location against the club calendar before publication. -->
 | Date | Time | Event | Location |
 |---|---|---|---|
 | Monday, November 16 | 6:00 PM | Ham Radio License Exams | Murray Center |
-| Monday, November 16 | 6:30 PM | Membership Meeting | Murray Center |
+| Monday, November 16 | 6:30 PM | SOARA Live Auction (in place of the membership meeting) | Murray Center |
 | Saturday, November 21 | 9:00 AM–noon | SOARA Elmer Saturday | Murray Center |
 | Monday, November 23 | 7:00 PM | Board Meeting | Murray Center |
-| November (date TBD) | TBD | SOARA Live Auction | See soara.org |
 
 *Dates, locations, and times are subject to change. Check the
 [SOARA website](https://www.soara.org) before attending.*
