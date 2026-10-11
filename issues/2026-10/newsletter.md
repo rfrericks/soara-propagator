@@ -88,7 +88,7 @@ Mark, KO6CZG, demoed contacts made all over the world with EchoLink.
 
 ![Ray and Ray setting up at the picnic table](assets/soara-saturday-ray-and-ray-setup-wa6ed-03.jpeg)
 
-*Ray and Ray setting up. Maybe Winlink? Not sure… Photo by Ed Barnes, WA6ED.*
+*Ray and Ray setting up JS8Call. Photo by Ed Barnes, WA6ED.*
 
 ![Brian and members at the picnic shelter](assets/soara-saturday-brian-group-wa6ed-04.jpeg)
 
