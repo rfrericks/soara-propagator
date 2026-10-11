@@ -13,9 +13,9 @@ Our next SOARA Saturday will be October 17, 2026, at Gilleran Park, 9 AM to noon
 
 The last SOARA Saturday was 9/19/2026 at Gilleran Park. The theme was digital modes. Greg, N6PM, brought donuts. Our donut fund balance was zero. Amazingly, we took in $75 for donuts. I paid Greg $20 for September and we now have a $55 balance for October, ++.
 
-Attendees were: WA6ED Ed, K6NOV Ray, KO6BIX Dan, KU6CZG Mark, W6EDT Dale, KN6HI Steve, N6PM Greg, W6DS David, KK6UMB Tom, NJ6N Brian, AE6H Ray, WE4BY Greg, N5KZV Bob, AD6OH Patti, W6CAG Claude.
+Attendees were: WA6ED Ed, K6NOV Ray, KO6BIX Dan, KO6CZG Mark, W6EDT Dale, KN6HI Steve, N6PM Greg, W6DS David, KK6UMB Tom, NJ6N Brian, AE6H Ray, WE4BY Greg, N5KZV Bob, AD6OH Patti, W6CAG Claude.
 
-Mark, KU6CZG, demoed contacts made all over the world with EchoLink.
+Mark, KO6CZG, demoed contacts made all over the world with EchoLink.
 
 ![Mark demonstrating EchoLink on his phone](assets/soara-saturday-echolink-ku6czg-wa6ed-01.jpeg)
 
@@ -47,7 +47,7 @@ Five photos by Ed Barnes, WA6ED, posted by him to the board group for this repor
 
 ## Editor Notes
 
-- **Callsign check:** Ed lists Mark as **KU6CZG** (twice). Mark's own earlier email came from **KO6CZG**. Left as Ed wrote it — confirm with Ed/Mark before publication.
+- **Callsign corrected by the editor:** Ed wrote Mark's call as KU6CZG; corrected to KO6CZG (Mark's own callsign) per Ray, in the attendee list and the EchoLink line.
 - Mechanical fixes: "a APRS" → "an APRS"; "a Arduino hamshield" → "an Arduino HamShield"; "TNC PI" → "TNC Pi"; "worled" → "world"; "JS8CALL" → "JS8Call"; "WinLink" → "Winlink"; punctuation/commas after first names before callsigns; "Gilleran park" capitalized. Ed's "SOARS" in the subject line is not printed.
 - Removed "Sent from my iPad. Please disregard typos." (email boilerplate, same as September).
 - Ed's paragraph order kept (next event first, then the recap). Date of next event verified: Saturday, October 17, 2026, Gilleran Park, 9 AM–noon.

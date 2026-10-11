@@ -8,13 +8,13 @@
 - [x] Announcements and volunteer opportunities included
 - [x] Feature article(s) received
 - [x] Recommended links received and tested; `recommended_links.py check` confirms none were previously recommended
-- [ ] Treasurer's report received and approved — RECEIVED; not approved (3 small tie-out discrepancies flagged for Ron, see submissions/treasurers-report-k0pge.md)
-- [ ] This-month and next-month calendars verified — October per Ray; November dates inferred from pattern (Nov 14/16/23, auction TBD), need confirmation
+- [x] Treasurer's report received and approved (Ron's marked block = sign-off; accepted by Ray 2026-10-11)
+- [x] This-month and next-month calendars verified (November dates confirmed by Ray)
 - [ ] Evergreen club information reviewed
 
 ## Editing and Fact Check
 
-- [ ] Names and callsigns verified — open: Mark KU6CZG (Ed) vs KO6CZG
+- [x] Names and callsigns verified (Mark corrected to KO6CZG)
 - [ ] Dates, times, locations, and contacts verified
 - [ ] Technical claims and regulatory guidance checked
 - [ ] Links tested
@@ -38,7 +38,8 @@
 ## Draft notes (2026-10-11)
 
 - First draft built for Ray's review; no Club News section this month (nothing submitted).
-- Kevin AJ6EE feature is AI-assisted per his note — Ray to decide on inclusion/disclosure.
+- Kevin AJ6EE feature: Ray approved to run as is, no AI line.
 - Ed's photo captions matched to images in email order; Ray to confirm.
 - `figure img` max-height added to templates/print/propagator.css to keep portrait photos/screenshots from filling a page.
 - PDF compressed with tools/compress_pdf.py (re-run after any rebuild).
+- 2026-10-11 Ray review edits applied: treasurer approved, KO6CZG, RADE (Radio Autoencoder), November dates confirmed.

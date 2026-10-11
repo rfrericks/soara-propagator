@@ -64,7 +64,7 @@ Dale Tyler, W6EDT
 
 ### October Membership Meeting: Live RADE Demo
 
-Join us Monday, October 19, at 6:30 PM at the Murray Center for our monthly membership meeting. This month we're planning a live demonstration of RADE, which carries digital voice over HF, so come see it on the air. License exams start at 6:00 PM, just before the meeting.
+Join us Monday, October 19, at 6:30 PM at the Murray Center for our monthly membership meeting. This month we're planning a live demonstration of RADE (Radio Autoencoder), which carries digital voice over HF, so come see it on the air. License exams start at 6:00 PM, just before the meeting.
 
 Watch the SOARA website for the latest meeting details.
 
@@ -74,9 +74,9 @@ Our next SOARA Saturday will be October 17, 2026, at Gilleran Park, 9 AM to noon
 
 The last SOARA Saturday was 9/19/2026 at Gilleran Park. The theme was digital modes. Greg, N6PM, brought donuts. Our donut fund balance was zero. Amazingly, we took in $75 for donuts. I paid Greg $20 for September and we now have a $55 balance for October, ++.
 
-Attendees were: WA6ED Ed, K6NOV Ray, KO6BIX Dan, KU6CZG Mark, W6EDT Dale, KN6HI Steve, N6PM Greg, W6DS David, KK6UMB Tom, NJ6N Brian, AE6H Ray, WE4BY Greg, N5KZV Bob, AD6OH Patti, W6CAG Claude.
+Attendees were: WA6ED Ed, K6NOV Ray, KO6BIX Dan, KO6CZG Mark, W6EDT Dale, KN6HI Steve, N6PM Greg, W6DS David, KK6UMB Tom, NJ6N Brian, AE6H Ray, WE4BY Greg, N5KZV Bob, AD6OH Patti, W6CAG Claude.
 
-Mark, KU6CZG, demoed contacts made all over the world with EchoLink.
+Mark, KO6CZG, demoed contacts made all over the world with EchoLink.
 
 ![Mark demonstrating EchoLink on his phone](assets/soara-saturday-echolink-ku6czg-wa6ed-01.jpeg)
 

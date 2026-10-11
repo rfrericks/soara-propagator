@@ -4,7 +4,7 @@ author: "Ron Mosher, K0PGE"
 callsign: "K0PGE"
 reporting_period: "October 1, 2025 through September 30, 2026"
 issue: "October 2026"
-approved_for_publication: false
+approved_for_publication: true
 source: "submissions/_inbox/from-ron-k0pge-SOARA General Ledger FY 2025-2026 as of September 30, 2026.xlsx"
 ---
 
@@ -39,7 +39,7 @@ any Board member.*
 
 ### Approval status
 
-`approved_for_publication: false` — first draft. Per CLAUDE.md the Treasurer (or Ray, under the September practice that Ron's marked block is his sign-off) must approve the section as it will appear. Given the discrepancies below, Ray should decide whether to check with Ron first.
+`approved_for_publication: true` as of 2026-10-11. Ray accepts the section as printed; per his practice, Ron's marked "Financial Statement for Propagator" block is the Treasurer's sign-off.
 
 ### Verification performed
 
@@ -50,7 +50,7 @@ any Board member.*
 - Continuity: Beginning Cash — October 1 ($28,179.03) is identical to the September issue ✓. September issue's ending cash (Aug 31) $26,345.24 → this issue $25,243.07, implying a September net change of $(1,102.17); not separately verifiable from the block (month detail is outside the published block).
 - Ron's email: "$25,243 in the bank ($15,186 checking + $10,057 CD)" — agrees with $25,243.07 (15,186 + 10,057 = 25,243) ✓.
 
-### For the Treasurer — discrepancies, printed as sent, not corrected
+### Record: minor tie-out differences (accepted by Ray, printed as sent, not an open item)
 
 1. **Ending cash vs. net income (current year), $0.07:** $28,179.03 + $(2,936.03) = **$25,243.00**, but the block shows Ending Cash **$25,243.07** (that cell pulls the ledger cash balance, N56, rather than beginning + net). Likely the same 7-cent difference noted in July.
 2. **Prior-year net income, $1.00 (carried from prior months):** $13,804.00 − $10,869.00 = $2,935.00, but the block prints $2,936.00 (and Ending Cash $28,681.00 uses $2,936.00).

@@ -199,7 +199,7 @@ That is what makes groups useful for events. Instead of sending the same message
 
 ## Editor Notes
 
-- **AI-assisted:** Kevin's cover note says he "had Claude put this document together" from his screenshots and description. Ray should decide on final inclusion and whether to add a disclosure line (e.g., "Prepared with AI assistance").
+- Kevin's cover note says the document was prepared with AI assistance. Ray reviewed and approved it to run as is, with no disclosure line.
 - Text extracted from Kevin's 8-page PDF in full; nothing cut or reworded. PDF page footers dropped. The page-1 block diagram (vector art) is reproduced as a simple table with the same labels; all 8 screenshots included (Devices/Modems shown side by side as in the original).
 - Byline expanded from "by AJ6EE" to his name from the email; sign-off "73, AJ6EE" kept.
 - Resource links made clickable; verify they resolve. The silabs.com entry had no specific URL, left as text.
