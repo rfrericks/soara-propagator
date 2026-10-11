@@ -19,6 +19,9 @@ governs voice, names/callsigns, dates, links, and photos.
 - **Publish date:** the Monday before the month's first club activity (usually
   SOARA Elmer Saturday). Example: SOARA Saturday on Sat Oct 17 means the issue
   publishes Mon Oct 12.
+- **SOARA Elmer Saturday:** the **third Saturday** of each month, 9:00 AM–noon.
+  Location: **Gilleran Park** in the warmer months; **Murray Center** in the
+  winter months, starting in November. Use this when filling the events calendar.
 - **Build day:** the Saturday before the publish date.
 - **Submission deadline:** the Friday before the build day.
 - Put the publish date in the issue's `publication_date` frontmatter.

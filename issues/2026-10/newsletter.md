@@ -35,9 +35,9 @@ date, time, and location against the club calendar before publication. -->
 
 | Date | Time | Event | Location |
 |---|---|---|---|
-| Saturday, November 14 | 9:00 AM–noon | SOARA Elmer Saturday | Gilleran Park |
 | Monday, November 16 | 6:00 PM | Ham Radio License Exams | Murray Center |
 | Monday, November 16 | 6:30 PM | Membership Meeting | Murray Center |
+| Saturday, November 21 | 9:00 AM–noon | SOARA Elmer Saturday | Murray Center |
 | Monday, November 23 | 7:00 PM | Board Meeting | Murray Center |
 | November (date TBD) | TBD | SOARA Live Auction | See soara.org |
 

@@ -54,6 +54,10 @@ Then:
 
 ## Schedule and call for articles
 
+SOARA Elmer Saturday is the third Saturday of each month (9:00 AM–noon), at
+Gilleran Park in the warmer months and at the Murray Center in the winter months
+starting in November.
+
 Publish on the Monday before the month's first club activity (usually SOARA
 Saturday). The deadline is the Friday before the Saturday build day. The call for
 articles goes to the groups.io members group, and the reminder goes to the board
