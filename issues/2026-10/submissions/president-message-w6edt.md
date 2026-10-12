@@ -2,6 +2,7 @@
 section: "President's Message"
 author: "Dale Tyler, W6EDT"
 callsign: "W6EDT"
+approved_for_publication: true
 issue: "October 2026"
 submitted: "2026-10-09"
 source: "submissions/_inbox/from-dale-w6edt-PresidentsMessage_1026.docx"

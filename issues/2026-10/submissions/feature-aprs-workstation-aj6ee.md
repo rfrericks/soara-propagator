@@ -2,6 +2,7 @@
 section: "Member Feature"
 author: "Kevin Brouelette, AJ6EE"
 callsign: "AJ6EE"
+approved_for_publication: true
 issue: "October 2026"
 submitted: "2026-09-29"
 source: "submissions/_inbox/from-kevin-aj6ee-APRS_Keyboard_Messaging_PinPoint_Digirig_FTM-6000.pdf"

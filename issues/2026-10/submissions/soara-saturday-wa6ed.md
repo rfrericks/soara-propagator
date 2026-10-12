@@ -2,6 +2,7 @@
 section: "SOARA Saturday Report"
 author: "Ed Barnes, WA6ED"
 callsign: "WA6ED"
+approved_for_publication: true
 issue: "October 2026"
 submitted: "2026-10-08"
 source: "submissions/_inbox/from-ed-wa6ed-ses-report-email.txt (+ image4..image8.jpeg)"

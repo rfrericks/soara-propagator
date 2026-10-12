@@ -2,6 +2,7 @@
 section: "Recommended Links"
 author: "Ray Frericks, K6NOV"
 callsign: "K6NOV"
+approved_for_publication: true
 issue: "October 2026"
 submitted: "2026-10-11"
 source: "submissions/_inbox/from-ray-k6nov-recommended-links.md"

@@ -4,7 +4,7 @@ club: "South Orange Amateur Radio Association"
 issue: "October 2026"
 publication_date: "2026-10-12"
 editor: "Ray Frericks, K6NOV"
-status: draft
+status: final
 ---
 
 # The Propagator

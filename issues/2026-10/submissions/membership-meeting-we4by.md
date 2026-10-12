@@ -2,6 +2,7 @@
 section: "Membership Meeting"
 author: "Greg Unruh, WE4BY"
 callsign: "WE4BY"
+approved_for_publication: true
 issue: "October 2026"
 submitted: "2026-10-10"
 source: "submissions/_inbox/from-greg-we4by-meeting-announcement.md"
