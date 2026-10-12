@@ -17,7 +17,7 @@
 - [x] Names and callsigns verified (Mark corrected to KO6CZG)
 - [x] Dates, times, locations, and contacts verified
 - [x] Technical claims and regulatory guidance checked
-- [x] Links tested 2026-10-11 (all 200 except: YouTube returned 429 rate-limit from box, uz7.ho.ua timed out from box; both were valid earlier, recheck by hand if desired)
+- [x] Links tested 2026-10-11 (all 200 except: YouTube returned 429 rate-limit from box, uz7.ho.ua timed out from box — not verified, Ray to check by hand)
 - [x] Contributor permissions and credits confirmed
 - [x] Image captions and credits included
 - [x] Spelling, grammar, and formatting reviewed
