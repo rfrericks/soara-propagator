@@ -166,6 +166,10 @@ blockquote { margin: 8px 0; padding: 4px 12px; border-left: 3px solid var(--gold
    onto the next, leaving a tall blank gap behind it. */
 .photo-intro { break-inside: avoid; }
 
+/* bold-only run-in label paragraphs ("Main screen") act as minor headings:
+   keep them with the block that follows */
+p.label { break-after: avoid; margin-bottom: 3px; }
+
 /* Treasurer's Report table is short enough to fit on one page; start the
    whole section fresh rather than let the table split mid-row. */
 h2#treasurer-s-report { break-before: page; }

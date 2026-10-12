@@ -133,6 +133,13 @@ def wrap_photo_intros(html_body, max_len=220):
     return pattern.sub(repl, html_body)
 
 
+def mark_run_in_labels(html_body):
+    """A paragraph that is only bold text (e.g. "**Main screen**") acts as a
+    minor heading; tag it so CSS can keep it with the content that follows."""
+    return re.sub(r"<p>(\s*<strong>[^<]*</strong>\s*)</p>",
+                  r'<p class="label">\1</p>', html_body)
+
+
 def wrap_section_tails(html_body, tail_paragraphs=3):
     """Keep the closing lines of each article section together (up to the last
     few paragraphs), so a page break can't strand a bare sign-off name — or
@@ -155,7 +162,17 @@ def wrap_section_tails(html_body, tail_paragraphs=3):
             out.append(chunk)
             continue
         matches = list(p_re.finditer(chunk))
-        tail = matches[-tail_paragraphs:] if matches else []
+        # Only group a run of *consecutive* closing paragraphs. If a list,
+        # table, or figure sits between them, stop there -- otherwise the
+        # unbreakable "tail" can swallow pages of content (e.g. a long
+        # feature ending in lists + a table + "73,") and leave a big gap.
+        tail = []
+        for m in reversed(matches):
+            if len(tail) >= tail_paragraphs:
+                break
+            if tail and chunk[m.end():tail[0].start()].strip():
+                break
+            tail.insert(0, m)
         if len(tail) >= 2 and chunk[tail[-1].end():].strip() == "":
             start = tail[0].start()
             out.append(chunk[:start])
@@ -204,6 +221,7 @@ def main():
     body_html = add_heading_ids(body_html)
     body_html = wrap_captions(body_html)
     body_html = wrap_photo_intros(body_html)
+    body_html = mark_run_in_labels(body_html)
     body_html = wrap_section_tails(body_html)
 
     # Wrap the closing "SOARA Information" section so it renders as a compact
