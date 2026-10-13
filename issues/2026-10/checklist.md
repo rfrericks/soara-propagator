@@ -29,10 +29,10 @@
 - [ ] Final proof reviewed by a second person
 - [x] Final PDF filename is `Propagator-YYYY-MM.pdf`
 - [x] PDF links and images checked
-- [ ] Newsletter published to website
+- [x] Newsletter published to website
 - [x] Announcement email generated: `python tools/build_announcement.py issues/YYYY-MM/newsletter.md` (see `templates/announcement-email.md`)
-- [ ] Newsletter announcement sent
-- [ ] Published PDF archived in `reference/`
+- [x] Newsletter announcement sent (groups.io, 2026-10-13)
+- [x] Published PDF archived in `reference/`
 - [ ] Next issue folder created
 
 ## Draft notes (2026-10-11)
