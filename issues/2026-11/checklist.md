@@ -1,4 +1,4 @@
-# MONTH YEAR Production Checklist
+# November 2026 Production Checklist
 
 ## Content
 
