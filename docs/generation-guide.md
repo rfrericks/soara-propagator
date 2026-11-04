@@ -1,0 +1,200 @@
+# Monthly Generation Guide
+
+This is the step-by-step procedure for turning a month's raw contributor
+material into the finished Propagator PDF. It is written to be followed by an
+assistant (Claude) or a human editor. Read `docs/editorial-style.md` first; it
+governs voice, names/callsigns, dates, links, and photos.
+
+## Inputs and outputs
+
+- **In:** raw drops in `issues/YYYY-MM/submissions/_inbox/` (pasted email, `.txt`,
+  `.docx`, `.pdf`, photos with captions).
+- **Out:** `issues/YYYY-MM/newsletter.md` (edited, assembled source) and
+  `issues/YYYY-MM/Propagator-YYYY-MM.pdf` (published file).
+
+## Step 0 — Set the schedule and call for articles
+
+### Monthly schedule
+
+- **Publish date:** the Monday before the month's first club activity (usually
+  SOARA Elmer Saturday). Example: SOARA Saturday on Sat Oct 17 means the issue
+  publishes Mon Oct 12.
+- **SOARA Elmer Saturday:** the **third Saturday** of each month, 9:00 AM–noon.
+  Location: **Gilleran Park** in the warmer months; **Murray Center** in the
+  winter months, starting in November. Use this when filling the events calendar.
+- **Build day:** the Saturday before the publish date.
+- **Submission deadline:** the Friday before the build day.
+- Put the publish date in the issue's `publication_date` frontmatter.
+
+### Call for articles
+
+About a week before the deadline, post a "Call for MONTH Propagator Articles"
+topic to the SOARA **members** group on groups.io
+(<https://soara.groups.io/g/members>). Post it directly in groups.io; there's no
+need to email it with Bcc. Template:
+
+```text
+Subject: Call for MONTH Propagator Articles
+
+Soara Board and Members,
+
+I will be constructing the MONTH Propagator on Saturday MONTH DDth. Please have your articles to me by Friday, M/D/YYYY.
+
+- President's Message
+- Financial Report
+- SES Report
+- Other announcements?
+- MON Meeting Announcement
+- Recommended Links!!
+- All other articles are always welcome.
+
+Thanks to all that have submitted articles this month!!
+
+Thanks,
+Ray
+K6NOV
+```
+
+### Reminder to the board
+
+Two days before the deadline (the Wednesday), post a reminder to the SOARA
+**board** group only (<https://soara.groups.io/g/board>), not the members group.
+Before posting, check what has already arrived (email replies and
+`issues/YYYY-MM/submissions/`) and append `   -- DONE` to each item received, so
+the board can see what's still outstanding. Leave anything uncertain unmarked,
+and never mark the last bullet. Template:
+
+```text
+Subject: Reminder: MONTH Propagator Articles Due Friday M/D
+
+Friendly reminder!! I will be constructing the MONTH Propagator on Saturday MONTH DDth, so please have your articles to me by Friday, M/D/YYYY.
+
+- President's Message
+- Financial Report   -- DONE
+- SES Report
+- MON Meeting Announcement
+- Recommended Links!!
+- All other articles are always welcome.
+
+Thanks!!
+73,
+Ray
+K6NOV
+```
+
+Item owners: President's Message comes from the President (Dale Tyler, W6EDT).
+Financial Report is the Treasurer's ledger (Ron Mosher, K0PGE). SES Report is the
+SOARA Elmer Saturday report (Ed Barnes, WA6ED). The meeting announcement comes
+from the Vice President (Greg Unruh, WE4BY). Recommended Links can come from any
+member.
+
+Never post to any groups.io group without the editor's explicit OK for that
+message.
+
+## Step 1 — Start the issue
+
+1. Copy `issues/_template/` to `issues/YYYY-MM/`.
+2. Copy `templates/newsletter.md` to `issues/YYYY-MM/newsletter.md`.
+3. Copy `templates/production-checklist.md` to `issues/YYYY-MM/checklist.md`.
+
+## Step 2 — Triage the inbox
+
+Look at everything in `submissions/_inbox/` and classify each item by section:
+President's Message, Membership Meeting, SOARA Saturday, Club News /
+Opportunities, Recommended Links, Member Feature, Treasurer's Report, Calendar.
+Note what's missing and flag it on the checklist.
+
+## Step 3 — Normalize each item into a submission
+
+For every raw item, create one structured file in `submissions/` (not the inbox)
+from the matching section template in `templates/`:
+
+- Filename: `section-author-callsign-short-title.md`.
+- **Preserve the contributor's wording.** Fix only clarity and mechanics
+  (spelling, grammar, obvious typos), keep their voice and sign-off.
+- Extract text from `.docx`/`.pdf`; transcribe pasted email bodies.
+- Fill the frontmatter (author, callsign, issue, submitted date).
+- In **Editor Notes**, list anything to verify: callsigns, dates, links,
+  technical claims, regulations.
+
+Move photos to `assets/` with descriptive names
+(`section-subject-photographer-callsign-01.jpg`) and record caption +
+photographer credit + permission in the related submission. Leave the inbox
+copies untouched as the source record.
+
+## Step 4 — Assemble `newsletter.md`
+
+Insert normalized content into `newsletter.md` in the standard order, omitting
+empty sections:
+
+1. Upcoming SOARA Events — the front-page at-a-glance calendar (this month +
+   next month). This section stays FIRST so it lands on the front page.
+2. President's Message
+3. Membership Meeting preview (may be folded into the President's Message some
+   months — that matches past issues)
+4. SOARA Saturday report
+5. Club News and Opportunities
+6. Recommended Links
+7. Member Feature article(s)
+8. Treasurer's Report
+9. SOARA Information (paste verified content from `shared/club-information.md`)
+
+Keep the events calendar on the front page (this month + next month); keep other
+time-sensitive club-wide material near the front and evergreen info at the back. Use `## ` for each section heading — the PDF builder turns
+those into the "In This Issue" list automatically. Captions: put an italic line
+(`*Caption. Photo by Name, CALLSIGN.*`) directly under each image.
+
+## Step 5 — Fact-check (do not skip)
+
+- Verify every **callsign** (format and the right person).
+- Verify every **date/time/location** against the club calendar; write dates
+  unambiguously (`Monday, June 15, 2026`).
+- Test every **link**; use descriptive link text.
+- Before publication, run `python3 tools/recommended_links.py check
+  issues/YYYY-MM/newsletter.md`. Resolve any duplicate reported from the
+  project's cross-issue Recommended Links registry.
+- Confirm photo **permissions and credits**.
+- Spell out uncommon abbreviations on first use (RACES, LNACS, EFHW, etc.).
+- Confirm the Treasurer's report is approved for publication.
+
+## Step 6 — Render the PDF
+
+```
+python tools/build_pdf.py issues/YYYY-MM/newsletter.md
+```
+
+This writes `issues/YYYY-MM/Propagator-YYYY-MM.pdf`. Open it and check the
+masthead, the auto-generated "In This Issue" list, photo placement/captions,
+tables, and page breaks. Edit `newsletter.md` (or `templates/print/propagator.css`
+for look) and re-run as needed.
+
+A photo-heavy issue can render well past 1MB (WeasyPrint embeds photos at
+their full source size/quality). Once the content and layout are final, shrink
+it with:
+
+```
+python tools/compress_pdf.py issues/YYYY-MM/Propagator-YYYY-MM.pdf
+```
+
+This recompresses large embedded photos in place (downsampled + re-encoded at
+a print-appropriate quality) without touching text, tables, or the masthead.
+Run it last, after the content is locked — re-running `build_pdf.py` afterward
+would just re-embed the original full-size photos. Use `--dry-run` to preview
+the savings, or `-o` to write a separate file instead of overwriting.
+
+## Step 7 — Finish the checklist and publish
+
+Complete `checklist.md`. Then publish to the website, send the announcement, and
+archive the PDF in `reference/` so it becomes a future style reference. After
+publication, record the approved Recommended Links with `python3
+tools/recommended_links.py register issues/YYYY-MM/newsletter.md`. Create next
+month's issue folder.
+
+## Notes
+
+- The PDF layout in `templates/print/` is a clean starting point, not a
+  pixel-match of past issues — adjust freely.
+- The masthead tagline currently reads "South Orange Amateur Radio Association"
+  per project convention; past printed mastheads have read "South Orange
+  **County** Amateur Radio Association." Confirm the correct wording with the
+  board and set it once in the newsletter frontmatter (`club:`).

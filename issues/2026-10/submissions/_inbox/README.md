@@ -1,0 +1,35 @@
+# Raw Inbox (drop zone)
+
+Drop **raw, unedited contributor material** here exactly as it arrives — no
+formatting or frontmatter required. This is the front door for the monthly
+issue.
+
+Accepted, as-is:
+
+- Pasted email text or a forwarded message saved as `.txt` / `.md`
+- Word documents (`.docx`) and PDFs
+- Photos (`.jpg`, `.png`) with the caption/credit written in an accompanying
+  `.txt` or in the email body
+
+Suggested filename so the source is obvious later:
+
+`from-firstname-callsign-topic.ext` (e.g. `from-dale-w6edt-presidents-message.txt`)
+
+## What happens next
+
+During assembly, each raw item is **normalized** into a structured file in the
+parent `submissions/` folder using the matching section template, preserving the
+contributor's wording (see `docs/generation-guide.md`). Photos move to
+`../../assets/` with descriptive names. Nothing here is edited in place — the
+inbox stays as the untouched record of what was received.
+
+## Received log
+
+| Received | From | Subject | Files |
+|---|---|---|---|
+| 2026-09-29 | Kevin Brouelette, AJ6EE | APRS workstation with Pinpoint APRS, DigiRig and Yaesu FTM-6000 | `from-kevin-aj6ee-aprs-workstation-email.txt`, `from-kevin-aj6ee-APRS_Keyboard_Messaging_PinPoint_Digirig_FTM-6000.pdf` |
+| 2026-10-03 | Ron Mosher, K0PGE | Financial Statements for the Fiscal Year Ended September 2026 | `from-ron-k0pge-financial-statements-email.txt`, `from-ron-k0pge-SOARA General Ledger FY 2025-2026 as of September 30, 2026.xlsx` |
+| 2026-10-08 | Ed Barnes, WA6ED | September SOARS Elmer Saturday Report (SES Report) | `from-ed-wa6ed-ses-report-email.txt`, `from-ed-wa6ed-ses-image4.jpeg` through `image8.jpeg` (5 photos) |
+| 2026-10-09 | Dale, W6EDT | President's Message | `from-dale-w6edt-presidents-message-email.txt`, `from-dale-w6edt-PresidentsMessage_1026.docx` |
+| 2026-10-10 | Greg Unruh, WE4BY (via Ray) | October meeting announcement (Live RADE Demo), Ray-approved text | `from-greg-we4by-meeting-announcement.md` |
+| 2026-10-11 | Ray Frericks, K6NOV | Recommended Links: FreeDV Explained video | `from-ray-k6nov-recommended-links.md` |
