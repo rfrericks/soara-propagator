@@ -3,7 +3,7 @@
 ## Content
 
 - [ ] President's Message received
-- [ ] Membership meeting preview received and verified
+- [ ] Membership meeting preview received and verified — Ron K0PGE's Nov 16 auction announcement (from-ron-k0pge-auction-announcement.md) IS this month's meeting announcement; use it as written
 - [ ] SOARA Saturday report received
 - [ ] Announcements and volunteer opportunities included
 - [ ] Feature article(s) received
