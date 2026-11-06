@@ -23,7 +23,7 @@ contributor's wording (see `docs/generation-guide.md`). Photos move to
 `../../assets/` with descriptive names. Nothing here is edited in place — the
 inbox stays as the untouched record of what was received.
 - 2026-10-29: from-ray-k6nov-recommended-links.md — Ray K6NOV, Recommended Link (Facebook reel)
-- 2026-11-01: from-ed-wa6ed-cyd-cheap-yellow-display-email.txt, from-ed-wa6ed-CYD_Shack_Gadget_Article.pdf — Ed Barnes WA6ED, "CYD Cheap Yellow Display" (article PDF)
+- 2026-11-06: from-ed-wa6ed-cyd-cheap-yellow-display-email.txt, from-ed-wa6ed-CYD_Extended_Edition_2026-11-03_1.pdf — Ed Barnes WA6ED, "CYD Extended" / Cheap Yellow Display Extended Edition (replaces Nov 1 CYD_Shack_Gadget_Article.pdf; 10-page PDF dated Nov 3)
 - 2026-11-03: from-ron-k0pge-financial-statements-email.txt, from-ron-k0pge-financial-statement-for-propagator-2026-10-31.md (Propagator block only; full ledger not kept in repo) — Ron Mosher K0PGE (Treasurer), "SOARA Financial Statements as of October 31, 2026" (ledger with Propagator summary and FY budget)
 - 2026-11-03: from-ron-k0pge-auction-announcement.md — Ron K0PGE, SOARA Auction announcement for Mon Nov 16 (received 2026-10-31 to members list)
 - 2026-11-04: from-ed-wa6ed-ses-report-email.txt, from-ed-wa6ed-SOARA_Elmer_Saturday_2026-10-17.pdf — Ed WA6ED, SES Report for Oct 17 Elmer Saturday (subject: SES Report with Claude's help)
