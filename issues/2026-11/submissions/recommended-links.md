@@ -5,15 +5,18 @@ callsign: "K6NOV"
 approved_for_publication: false
 issue: "November 2026"
 submitted: "2026-10-29"
+updated: "2026-11-09"
 source: "submissions/_inbox/from-ray-k6nov-recommended-links.md"
 ---
 
 # Recommended Links
 
-- [https://www.facebook.com/reel/2732795223848329](https://www.facebook.com/reel/2732795223848329). Shared by Ray Frericks, K6NOV.
+- **[Facebook reel](https://www.facebook.com/reel/2732795223848329).** See how Morse code was woven into a TV series theme song. Shared by Ray Frericks, K6NOV.
+- **[Which HT Actually Works For Shortwave Listening](https://www.youtube.com/watch?v=1a362_4Amrg)** (KM4ACK, YouTube). Shortwave listening (SWL) with a handheld radio (HT). Shared by Ray Frericks, K6NOV.
 
 ## Editor Notes
 
-- Ray's inbox file is only that URL. No title and no description were filed. None was written. He can add both before publication.
+- 2026-11-09: Ray supplied the Facebook description. Wording is his. The show is not named. The reel was not opened (Facebook login wall on 2026-11-08), so nothing else was added.
+- 2026-11-09: Ray added the YouTube link and said it is about SWL with an HT. Public oEmbed title is "Which HT Actually Works For Shortwave Listening" by KM4ACK. That title is the link text. The description is Ray's, with SWL and HT spelled out. No radio models or other transcript details were added.
 - Not in `recommended-links/registry.csv`. Do not register until the issue is published.
-- The reel URL was requested on 2026-11-08 and returned a Facebook login wall, so the reel itself was not viewed from this build. The link was not described from guesswork.
+- `approved_for_publication` stays false. This is still a review draft.

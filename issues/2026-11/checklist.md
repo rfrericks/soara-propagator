@@ -11,7 +11,7 @@ and nothing was posted to the website or to groups.io.
 - [x] SOARA Saturday report received (Ed WA6ED, Oct 17 PDF, photos and captions kept)
 - [x] Announcements and volunteer opportunities included (Holiday Party blurb; price updated to $40)
 - [x] Feature article(s) received (Ed WA6ED, CYD Extended Edition, Nov 3, full 10-page article)
-- [ ] Recommended links received and tested; `recommended_links.py check` confirms none were previously recommended — the Facebook reel URL is filed and is not in the registry. Ray supplied no title or description, so none was written. The URL answers, but the reel itself is behind a Facebook wall and was not described.
+- [ ] Recommended links received and tested; `recommended_links.py check` confirms none were previously recommended — Ray's 2026-11-09 edits add a Morse-code description to the Facebook reel (show not named) and a YouTube link, "Which HT Actually Works For Shortwave Listening" (KM4ACK). Not registered. Publication box stays open.
 - [ ] Treasurer's report received and approved — the marked-block markdown is typeset and the figures tie. `approved_for_publication` stays false until Ron or Ray accepts this typeset. No ledger spreadsheet is in the repo.
 - [ ] This-month and next-month calendars verified — November 21 and December 19 are sourced. December board meeting and December exams are unresolved and were left off. Auction time and Holiday Party venue conflicts are flagged, not resolved.
 - [x] Evergreen club information reviewed against `shared/club-information.md` (differences from the October printed page are in the draft notes; not silently "corrected" beyond following the shared file)
@@ -41,7 +41,7 @@ and nothing was posted to the website or to groups.io.
 
 The review PDF was rendered and compressed for this pass. Those publication boxes stay unchecked on purpose. This file is not the published issue.
 
-Review file: `issues/2026-11/Propagator-2026-11.pdf`, 19 pages, 983,722 bytes. `tools/compress_pdf.py` stopped at 1,021,753 bytes. A second pass recompressed the eight photographs only (JPEG quality 66, same pixel size). No text, table, or photo was removed. Layout fixes in `templates/print/propagator.css`: table rows stay on one page, and the CYD feature starts on a fresh page so its title is not left behind the opening photo.
+Review file: `issues/2026-11/Propagator-2026-11.pdf`, 19 pages, 987,272 bytes after the 2026-11-09 Recommended Links edit. `tools/compress_pdf.py` stopped at 1,025,302 bytes. A second pass recompressed the eight photographs only (JPEG quality 66, same pixel size). No text, table, or photo was removed. Layout fixes in `templates/print/propagator.css`: table rows stay on one page, and the CYD feature starts on a fresh page so its title is not left behind the opening photo.
 
 ## Draft notes (2026-11-08) — first pass, for Ray
 
@@ -52,7 +52,7 @@ Review file: `issues/2026-11/Propagator-2026-11.pdf`, 19 pages, 983,722 bytes. `
 - Membership meeting: Ron Mosher, K0PGE, auction announcement, full text
 - SOARA Saturday report, Ed Barnes, WA6ED, October 17, five photos with his captions
 - Club news: December 4 Holiday Party, ticket price now $40 per person
-- Recommended link: Ray's Facebook reel URL only
+- Recommended links: Ray's Facebook reel (Morse code woven into a TV series theme song; show not named) and KM4ACK, "Which HT Actually Works For Shortwave Listening" (shortwave listening with a handheld)
 - Feature: Ed Barnes, WA6ED, "The Cheap Yellow Display" Extended Edition, full article, three photos
 - Treasurer's Report from the Propagator block only, through the October 31 ending-cash line
 - SOARA Information from `shared/club-information.md`
@@ -91,6 +91,7 @@ Printed as sent, not "fixed":
 - Jimmy KK6TTL: FCC licensee name is Zhiming Huang. Ed's "Jimmy" was not replaced.
 - W6EDT checks as Eugene Tyler. Printed name stays Dale, as in prior issues and as he signed this message.
 - CYD link oddities kept from his PDF: Matt Housley's cyd-dashboard and JamesDavid's Overhead both use the same Trendshift URL (`repositories/73440`); "ESPHome examples" points at the witnessmenow GitHub repo; the ARNewsline URL slug says "wboew" while the text says WB0OEW (that callsign does check as Elwood Downey); both Printables URLs are stored already cut off. Home Assistant and Printables returned HTTP 403 to the checker. Not rewritten.
-- Facebook reel `https://www.facebook.com/reel/2732795223848329` returned a generic Facebook page from here. No description was invented. `recommended_links.py check` reports it as new. Not registered.
+- Facebook reel `https://www.facebook.com/reel/2732795223848329`: Ray's description is printed ("See how Morse code was woven into a TV series theme song."). The show is not named. The reel itself was not viewed.
+- YouTube `https://www.youtube.com/watch?v=1a362_4Amrg`: public title "Which HT Actually Works For Shortwave Listening" (KM4ACK). Description is Ray's SWL-with-an-HT line. Not registered.
 - SOARA Information follows `shared/club-information.md`, not a fresh copy of the October back page. Differences Ray should confirm before this is final: Treasurer phone 949-636-9816 (October printed 949-363-0047); exam contact testing@soara.org (October printed k6uvr@soara.org; the exam webpage still says to email documents to K6UVR@SOARA.ORG); At Large director Dan Upchurch, N6RPR (on the soara.org board page); Public Information Coordinator Knute Josifek, K6HIV (in the shared file, not on the Apr 21, 2026 board page). The board page also has blank IT and Ambassador lines; those were not added.
 - soara.org club-meetings page says meetings start at 7:00 PM. The shared file, recent calendars, and this issue say 6:30 PM. The 6:30 PM line was left as the newsletter has carried it.

@@ -181,7 +181,10 @@ presented at the party.
 
 ## Recommended Links
 
-- [https://www.facebook.com/reel/2732795223848329](https://www.facebook.com/reel/2732795223848329). Shared by Ray Frericks, K6NOV.
+A few links worth checking out this month:
+
+- **[Facebook reel](https://www.facebook.com/reel/2732795223848329).** See how Morse code was woven into a TV series theme song. Shared by Ray Frericks, K6NOV.
+- **[Which HT Actually Works For Shortwave Listening](https://www.youtube.com/watch?v=1a362_4Amrg)** (KM4ACK, YouTube). Shortwave listening (SWL) with a handheld radio (HT). Shared by Ray Frericks, K6NOV.
 
 ## The Cheap Yellow Display
 
