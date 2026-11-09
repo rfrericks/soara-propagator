@@ -1,8 +1,9 @@
 # November 2026 Production Checklist
 
-First-pass draft for Ray Frericks, K6NOV, to review. Not for publication.
-Publish target is Monday, November 9, 2026. No announcement was generated or sent,
-and nothing was posted to the website or to groups.io.
+Published Monday, November 9, 2026. Ray Frericks, K6NOV, uploaded the PDF to
+soara.org and posted the groups.io notice that day. The file he published is
+`Propagator-2026-11.pdf`, 19 pages, 987,272 bytes. Open conflicts below were
+not resolved before that upload.
 
 ## Content
 
@@ -11,8 +12,8 @@ and nothing was posted to the website or to groups.io.
 - [x] SOARA Saturday report received (Ed WA6ED, Oct 17 PDF, photos and captions kept)
 - [x] Announcements and volunteer opportunities included (Holiday Party blurb; price updated to $40)
 - [x] Feature article(s) received (Ed WA6ED, CYD Extended Edition, Nov 3, full 10-page article)
-- [ ] Recommended links received and tested; `recommended_links.py check` confirms none were previously recommended — Ray's 2026-11-09 edits add a Morse-code description to the Facebook reel (show not named) and a YouTube link, "Which HT Actually Works For Shortwave Listening" (KM4ACK). Not registered. Publication box stays open.
-- [ ] Treasurer's report received and approved — the marked-block markdown is typeset and the figures tie. `approved_for_publication` stays false until Ron or Ray accepts this typeset. No ledger spreadsheet is in the repo.
+- [x] Recommended links received and tested; `recommended_links.py check` confirms none were previously recommended — Facebook reel and KM4ACK "Which HT Actually Works For Shortwave Listening". Registered 2026-11-09 after publication (Ray Frericks, K6NOV).
+- [ ] Treasurer's report received and approved — the marked-block markdown is typeset and the figures tie. `approved_for_publication` stays false. Publication is not that sign-off. No ledger spreadsheet is in the repo.
 - [ ] This-month and next-month calendars verified — November 21 and December 19 are sourced. December board meeting and December exams are unresolved and were left off. Auction time and Holiday Party venue conflicts are flagged, not resolved.
 - [x] Evergreen club information reviewed against `shared/club-information.md` (differences from the October printed page are in the draft notes; not silently "corrected" beyond following the shared file)
 
@@ -28,20 +29,18 @@ and nothing was posted to the website or to groups.io.
 
 ## Publication
 
-- [ ] PDF rendered: `python tools/build_pdf.py issues/YYYY-MM/newsletter.md`
-- [ ] "In This Issue" list, masthead, captions, tables, and page breaks look right
+- [x] PDF rendered: `python tools/build_pdf.py issues/YYYY-MM/newsletter.md`
+- [x] "In This Issue" list, masthead, captions, tables, and page breaks look right
 - [ ] Final proof reviewed by a second person
-- [ ] Final PDF filename is `Propagator-YYYY-MM.pdf`
-- [ ] PDF links and images checked
-- [ ] Newsletter published to website
+- [x] Final PDF filename is `Propagator-YYYY-MM.pdf`
+- [x] PDF links and images checked
+- [x] Newsletter published to website (soara.org, 2026-11-09, Ray K6NOV)
 - [ ] Announcement email generated: `python tools/build_announcement.py issues/YYYY-MM/newsletter.md` (see `templates/announcement-email.md`)
-- [ ] Newsletter announcement sent
-- [ ] Published PDF archived in `reference/`
-- [ ] Next issue folder created
+- [x] Newsletter announcement sent (groups.io, 2026-11-09, Ray K6NOV)
+- [x] Published PDF archived in `reference/`
+- [x] Next issue folder created
 
-The review PDF was rendered and compressed for this pass. Those publication boxes stay unchecked on purpose. This file is not the published issue.
-
-Review file: `issues/2026-11/Propagator-2026-11.pdf`, 19 pages, 987,272 bytes after the 2026-11-09 Recommended Links edit. `tools/compress_pdf.py` stopped at 1,025,302 bytes. A second pass recompressed the eight photographs only (JPEG quality 66, same pixel size). No text, table, or photo was removed. Layout fixes in `templates/print/propagator.css`: table rows stay on one page, and the CYD feature starts on a fresh page so its title is not left behind the opening photo.
+Review file, and the file Ray uploaded: `issues/2026-11/Propagator-2026-11.pdf`, 19 pages, 987,272 bytes. `tools/compress_pdf.py` stopped at 1,025,302 bytes. A second pass recompressed the eight photographs only (JPEG quality 66, same pixel size). No text, table, or photo was removed. The same bytes are in `reference/Propagator-2026-11.pdf`. `build_announcement.py` was not run. Layout fixes in `templates/print/propagator.css`: table rows stay on one page, and the CYD feature starts on a fresh page so its title is not left behind the opening photo.
 
 ## Draft notes (2026-11-08) — first pass, for Ray
 
@@ -62,7 +61,7 @@ Review file: `issues/2026-11/Propagator-2026-11.pdf`, 19 pages, 987,272 bytes af
 - Randy WA4SKI's BEACON piece. It was not in `submissions/_inbox/` or elsewhere in the repo at this assembly. Not invented and not given a placeholder.
 - The earlier CYD article (`CYD_Shack_Gadget_Article.pdf`). The inbox has only the Nov 3 Extended Edition, which replaces it.
 - Ron's full ledger workbook. Only the already-extracted Propagator-block markdown was used. His email's "$236 was the P.O. Box" split is outside that block and is not printed.
-- No announcement email, no groups.io post, no website upload.
+- At assembly there was no announcement file, no groups.io post, and no website upload. Ray posted the groups.io notice and uploaded the PDF on 2026-11-09. See the close-out note.
 
 ### Conflicts left for you (nothing was rewritten to pick a winner)
 
@@ -83,7 +82,7 @@ Printed as sent, not "fixed":
 - Block title says through October 30; the ending-cash row says October 31.
 - Prior-year beginning cash is $28,179.00. The October issue showed October 1, 2025 beginning cash as $28,179.03. Difference $0.03.
 - Whole-dollar cells were given cents and thousands separators to match the October table. Digits were not changed.
-- `approved_for_publication: false`.
+- `approved_for_publication: false`. Left false at publication. October set this true only when Ray accepted the printed section. Publishing the PDF is not that sign-off.
 
 ### Other flags
 
@@ -92,6 +91,10 @@ Printed as sent, not "fixed":
 - W6EDT checks as Eugene Tyler. Printed name stays Dale, as in prior issues and as he signed this message.
 - CYD link oddities kept from his PDF: Matt Housley's cyd-dashboard and JamesDavid's Overhead both use the same Trendshift URL (`repositories/73440`); "ESPHome examples" points at the witnessmenow GitHub repo; the ARNewsline URL slug says "wboew" while the text says WB0OEW (that callsign does check as Elwood Downey); both Printables URLs are stored already cut off. Home Assistant and Printables returned HTTP 403 to the checker. Not rewritten.
 - Facebook reel `https://www.facebook.com/reel/2732795223848329`: Ray's description is printed ("See how Morse code was woven into a TV series theme song."). The show is not named. The reel itself was not viewed.
-- YouTube `https://www.youtube.com/watch?v=1a362_4Amrg`: public title "Which HT Actually Works For Shortwave Listening" (KM4ACK). Description is Ray's SWL-with-an-HT line. Not registered.
+- YouTube `https://www.youtube.com/watch?v=1a362_4Amrg`: public title "Which HT Actually Works For Shortwave Listening" (KM4ACK). Description is Ray's SWL-with-an-HT line. Registered 2026-11-09 with the Facebook reel.
+
+## Close-out (2026-11-09)
+
+Ray reported the issue published: PDF uploaded to soara.org and the groups.io notice posted, both Monday, November 9, 2026. Newsletter `status` set to `final`. Recommended Links registered. The 987,272-byte PDF copied to `reference/Propagator-2026-11.pdf`. `issues/2026-12/` created from `_template` the same way November started (checklist title only). Treasurer `approved_for_publication` left false. No second-person proof. `build_announcement.py` was not run. Auction time, holiday-party venue, November 16 exams, and the December board meeting and exams were still unresolved when he published.
 - SOARA Information follows `shared/club-information.md`, not a fresh copy of the October back page. Differences Ray should confirm before this is final: Treasurer phone 949-636-9816 (October printed 949-363-0047); exam contact testing@soara.org (October printed k6uvr@soara.org; the exam webpage still says to email documents to K6UVR@SOARA.ORG); At Large director Dan Upchurch, N6RPR (on the soara.org board page); Public Information Coordinator Knute Josifek, K6HIV (in the shared file, not on the Apr 21, 2026 board page). The board page also has blank IT and Ambassador lines; those were not added.
 - soara.org club-meetings page says meetings start at 7:00 PM. The shared file, recent calendars, and this issue say 6:30 PM. The 6:30 PM line was left as the newsletter has carried it.

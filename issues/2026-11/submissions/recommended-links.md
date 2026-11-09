@@ -18,5 +18,5 @@ source: "submissions/_inbox/from-ray-k6nov-recommended-links.md"
 
 - 2026-11-09: Ray supplied the Facebook description. Wording is his. The show is not named. The reel was not opened (Facebook login wall on 2026-11-08), so nothing else was added.
 - 2026-11-09: Ray added the YouTube link and said it is about SWL with an HT. Public oEmbed title is "Which HT Actually Works For Shortwave Listening" by KM4ACK. That title is the link text. The description is Ray's, with SWL and HT spelled out. No radio models or other transcript details were added.
-- Not in `recommended-links/registry.csv`. Do not register until the issue is published.
-- `approved_for_publication` stays false. This is still a review draft.
+- Registered 2026-11-09 after Ray published the issue (`recommended_links.py register`, shared by Ray Frericks, K6NOV).
+- `approved_for_publication` stays false. That flag was not part of the publication close-out.
