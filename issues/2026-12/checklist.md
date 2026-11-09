@@ -6,7 +6,7 @@
 - [ ] Membership meeting preview received and verified
 - [ ] SOARA Saturday report received
 - [ ] Announcements and volunteer opportunities included
-- [ ] Feature article(s) received
+- [x] Feature article(s) received — Temple Hill Activated (KN6HI / KO6CZG), wording approved by Ray 2026-11-09
 - [ ] Recommended links received and tested; `recommended_links.py check` confirms none were previously recommended
 - [ ] Treasurer's report received and approved
 - [ ] This-month and next-month calendars verified
