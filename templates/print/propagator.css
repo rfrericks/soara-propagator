@@ -152,6 +152,9 @@ figcaption { font-size: 8.5pt; color: var(--muted); font-style: italic; margin-t
 table { border-collapse: collapse; width: 100%; margin: 8px 0; font-size: 9.5pt; }
 th, td { border: 1px solid var(--rule); padding: 4px 7px; text-align: left; vertical-align: top; }
 th { background: var(--navy-soft); color: var(--navy); font-family: "Helvetica", sans-serif; }
+/* Keep a row on one page. A split row put the symptom on the next page and
+   left the cause and fix behind. */
+tr { break-inside: avoid; }
 
 blockquote { margin: 8px 0; padding: 4px 12px; border-left: 3px solid var(--gold); color: var(--muted); }
 
@@ -178,6 +181,10 @@ h2#treasurer-s-report { break-before: page; }
    only a sliver (one short paragraph) at the bottom before the rest spilled
    to page 2. Start the whole section on its own page instead. */
 h2#president-s-message { break-before: page; }
+/* The CYD feature is long. Starting it on a fresh page keeps the title,
+   byline, and opening photo together instead of leaving the title alone at
+   the bottom of the club-news page. */
+h2#the-cheap-yellow-display { break-before: page; }
 
 hr { border: 0; border-top: 1px solid var(--rule); margin: 16px 0; }
 
